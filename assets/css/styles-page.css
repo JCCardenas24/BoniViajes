@@ -1,3 +1,7 @@
+input::placeholder {
+    color: #9B9B9B;
+} 
+
 .h-70 {
     height: 70px;
 }
@@ -39,8 +43,21 @@
     width: 100%;
 }
 
+.li-footer-elem {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.li-footer-elem li a {
+    color: #fff;
+}
+
 .f-70 {
     font-size: 70px;
+}
+
+.f-50 {
+    font-size: 17px;
 }
 
 .c-yellow {
@@ -52,6 +69,10 @@
 }
 .c-gray {
     color: #4D4D4D;
+}
+
+.bg-gray {
+    background-color: #4E4E4E !important;
 }
 
 .btn-yellow {

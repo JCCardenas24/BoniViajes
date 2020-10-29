@@ -42,7 +42,7 @@
                                         <input type="text" id="viaje" class="style-inp" placeholder="¿A dónde viajas?">
                                     </div>
                                     <div class="col-md-12 mt-15">
-                                        <button class="btn col-md-12 materialize-red white-text">¡Quiero que me llamen!</button>
+                                        <button class="btn col-md-12 materialize-red white-text f-50 fw-b">¡Llámame!</button>
                                     </div>
                                 </form>
                             </div>
