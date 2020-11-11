@@ -1,9 +1,24 @@
+@font-face {
+    font-family: 'Futura light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/futura-std-webfont/FuturaStdLight.woff') format('woff');
+}
+
 input::placeholder {
     color: #9B9B9B;
 }
 
+.f-light {
+    font-family: 'Futura light', sans-serif !important;
+}
+
 .h-70 {
     height: 70px;
+}
+
+.h-45 {
+    height: 45px;
 }
 
 .slider.fullscreen {
@@ -23,12 +38,20 @@ input::placeholder {
     margin-top: 15px;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+
 .mb-10 {
     margin-bottom: 10px;
 }
 
 .m-0 {
-    margin: 0;
+    margin: 0 !important;
 }
 
 .style-inp {
@@ -60,6 +83,10 @@ input::placeholder {
     font-size: 17px;
 }
 
+.f-14 {
+    font-size: 14px !important;
+}
+
 .c-yellow {
     color: #efb40b !important;
 }
@@ -67,8 +94,13 @@ input::placeholder {
 .c-red {
     color: #d54646 !important;
 }
+
 .c-gray {
     color: #4D4D4D;
+}
+
+.c-white {
+    color: #fff;
 }
 
 .bg-gray {
@@ -134,6 +166,49 @@ input::placeholder {
     top: -30px;
 }
 
+.pos-collapse {
+    position: relative;
+    top: -29px;
+}
+
 .radius-0 {
     border-radius: 0px;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #4D4D4D;
+    height: 14px;
+    width: 14px;
+    border: 1px solid #4D4D4D;
+}
+
+.slider .indicators .indicator-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 12px;
+    background-color: #fff;
+    transition: background-color .3s;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+[type="checkbox"].filled-in:checked + label:after {
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #efb40b;
+    background-color: #efb40b;
+    z-index: 0;
+}
+
+[type="checkbox"].filled-in:not(:checked) + label:after {
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    top: 5px;
+    z-index: 0;
 }

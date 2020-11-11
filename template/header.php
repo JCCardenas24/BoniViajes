@@ -3,7 +3,7 @@
         <div class="ed-mob-menu-con">
             <div class="ed-mm-left">
                 <div class="wed-logo">
-                    <a href="main.html"><img src="./assets/images/logo.png" alt="logo"></a>
+                    <a href="index.php"><img src="./assets/images/boni/boniviajes_logo0.svg" alt="logo"></a>
                 </div>
             </div>
             <div class="ed-mm-right">
@@ -96,14 +96,14 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="wed-logo">
-                        <a href="main.html"><img src="./assets/images/logo.png" alt=""></a>
+                        <a href="index.php"><img src="./assets/images/boni/boniviajes_logo0.svg" alt="logo" width="50"></a><span class="c-gray fw-b"> &nbsp;&nbsp; | SINCE 1984</span>
                     </div>
                     <div class="main-menu">
                         <ul>
                             <li><a href="index.php">Inicio</a></li>
-                            <li><a href="#" class="mm-arr">Top Bundles</a></li>
-                            <li><a href="#" class="mm-arr">Trendy Destinations</a></li>
-                            <li><a href="#">My Lifestyle</a></li>
+                            <li><a href="#top" class="mm-arr">Top Bundles</a></li>
+                            <li><a href="#lifestyle">My Lifestyle</a></li>
+                            <li><a href="#trendy" class="mm-arr">Trendy Destinations</a></li>
                         </ul>
                     </div>
                 </div>
