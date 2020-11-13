@@ -625,7 +625,7 @@
     <div class="fb-customerchat" attribution=setup_tool page_id="562977607842181" logged_in_greeting="¡Hola! ¿Cómo puedo ayudarte?" logged_out_greeting="¡Hola! ¿Cómo puedo ayudarte?"></div>
     <!-- btns call to action -->
     <div class="wrapper_call_acction">
-        <a target=”_blank” href="https://api.whatsapp.com/send?phone=525518971284&text=%C2%A1Hola,%20este%20es%20un%20mensaje%20de%20prueba%20%F0%9F%A4%96!">
+        <a target=”_blank” href="https://api.whatsapp.com/send?phone=5215561220592&text=%C2%A1Hola,%20este%20es%20un%20mensaje%20de%20prueba%20%F0%9F%A4%96!">
             <img class="mt-15 mb-15" src="assets/images/boni/whatsapp.svg" alt="wa">
         </a>
         <!-- Load Facebook SDK for JavaScript -->
