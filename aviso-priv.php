@@ -5,9 +5,9 @@
     <?php include_once('./template/head.php') ?>
 <body>
     <?php include_once('./template/header.php') ?>
-	<section class="mx-width ">
+	<section>
 		<div class="rows inner_banner bg_aviso">
-			<div class="container">
+			<div class="container container-title">
 				<ul>
 					<li><a class="c-bread-active" href="index.php">Inicio</a></li>
 					<li><i class="fa fa-angle-right c-bread" aria-hidden="true"></i></li>
@@ -37,16 +37,33 @@
                     </ul>
                 </p>
             </div>
-		</div>
+        </div>
+        <div id="fb-root"></div>
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                    xfbml            : true,
+                    version          : 'v9.0'
+                });
+            };
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+            (document, 'script', 'facebook-jssdk'));
+        </script>
+        <div class="fb-customerchat" attribution=setup_tool page_id="562977607842181" logged_in_greeting="¡Hola! ¿Cómo puedo ayudarte?" logged_out_greeting="¡Hola! ¿Cómo puedo ayudarte?"></div>
     </section>
-        <!-- btns call to action -->
+    <!-- btns call to action -->
     <div class="wrapper_call_acction">
         <img src="assets/images/boni/red.png" alt="">
-        <a target=”_blank”
-            href="https://api.whatsapp.com/send?phone=525518971284&text=%C2%A1Hola,%20este%20es%20un%20mensaje%20de%20prueba%20%F0%9F%A4%96!">
-            <img src="assets/images/boni/whats.png" alt="">
+        <a target=”_blank” href="https://api.whatsapp.com/send?phone=525518971284&text=%C2%A1Hola,%20este%20es%20un%20mensaje%20de%20prueba%20%F0%9F%A4%96!">
+            <img class="mt-15 mb-15" src="assets/images/boni/whatsapp.svg" alt="wa">
         </a>
-        <img src="assets/images/boni/msn.png" alt="">
+        <!-- Load Facebook SDK for JavaScript -->
     </div>
 
     <?php include_once('./template/footer.php') ?>

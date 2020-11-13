@@ -127,6 +127,10 @@ input::placeholder {
     margin-top: 15px;
 }
 
+.mb-15 {
+    margin-bottom: 15px;
+}
+
 .mt-20 {
     margin-top: 20px;
 }
@@ -203,6 +207,10 @@ input::placeholder {
 
 .f-14 {
     font-size: 14px !important;
+}
+
+.f-30 {
+    font-size: 30px !important;
 }
 
 .c-yellow {
@@ -301,7 +309,7 @@ input::placeholder {
 
 .pos-form {
     position: absolute;
-    top: 40px;
+    top: 30px;
     left: 100%;
     z-index: 2;
 }
@@ -323,6 +331,11 @@ input::placeholder {
     top: -29px;
 }
 
+.indicators {
+    position: relative !important;
+    top: -35px;
+}
+
 .radius-0 {
     border-radius: 0px;
 }
@@ -340,7 +353,7 @@ input::placeholder {
     cursor: pointer;
     height: 12px;
     width: 12px;
-    margin: 0 12px;
+    margin: 0 15px;
     background-color: #fff;
     transition: background-color .3s;
     border-radius: 50%;
@@ -446,8 +459,8 @@ body{
     width: 36px;
     height: 130px;
     position: fixed;
-    right: 3%;
-    top: 70%;
+    right: 3.2%;
+    top: 67%;
     z-index: 999;
 }
 
@@ -512,10 +525,14 @@ body{
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1440px) {
     .mx-width {
         max-width: 1440px;
         margin: auto;
+    }
+
+    .container-title {
+        width: 1780px !important;
     }
 }
 

@@ -20,13 +20,12 @@
                             </div>
                             <div class="col-sm-3 foot-social foot-spec foot-com">
                                 <h4 class="f-medium">Síguenos</h4>
-                                <p class="f-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                <p class="f-medium">
+                                    Creamos experiencias únicas en donde el consumidor es nuestro centro. Y en los íconos de las redes deben aparecer solo Instagram y Facebook.
+                                </p>
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
-                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a> </li>
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
-                                    <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a> </li>
+                                    <li><a href="#"><i class="fa fa-facebook f-30" aria-hidden="true"></i></a> </li>
+                                    <li><a href="#"><i class="fa fa-instagram f-30" aria-hidden="true"></i></a> </li>
                                 </ul>
                             </div>
                         </div>
@@ -36,7 +35,7 @@
         </div>
     </div>
 </section>
-<section class="mx-width">
+<section>
     <div class="rows copy">
         <div class="container">
             <p class="f-light">Boniviajes © 2020. Todos los derechos reservados.</p>
