@@ -5,13 +5,88 @@
     src: url('../fonts/futura-std-webfont/FuturaStdLight.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'Futura book';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/futura-std-webfont/FuturaStdBook.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Futura medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/futura-std-webfont/FuturaStdMedium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Futura bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/futura-std-webfont/FuturaStdBold.woff') format('woff');
+}
+
 input::placeholder {
     color: #9B9B9B;
 }
 
+#points-av li {
+    color: #333 !important;
+}
+
+#nosotrosul li {
+    list-style: none;
+}
+
+#nosotrosul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+/**
+ * BG
+ */
+
+.bg_aviso {
+    background-image: url('../images/boni/header_aaviso.png');
+}
+
+.bg_nosotros {
+    background-image: url('../images/boni/header_nosotros.png');
+}
+
+.img-mision {
+    background-image: url('../images/boni/mision.svg');
+}
+
+/**
+ * Font
+ */
+
 .f-light {
     font-family: 'Futura light', sans-serif !important;
 }
+
+.f-bold {
+    font-family: 'Futura bold', sans-serif !important;
+}
+
+.f-book {
+    font-family: 'Futura book', sans-serif !important;
+}
+
+.f-medium {
+    font-family: 'Futura medium', sans-serif !important;
+}
+
+/**
+ * Height
+ */
 
 .h-70 {
     height: 70px;
@@ -25,14 +100,28 @@ input::placeholder {
     height: 390px !important;
 }
 
-.fw-b {
-    font-weight: bold;
-}
+/**
+ * Padding
+ */
 
 .p-15 {
     /* padding-top: 45px; */
     padding-bottom: 16px;
 }
+
+.pd-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.plr-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/**
+ * Margins
+ */
 
 .mt-15 {
     margin-top: 15px;
@@ -50,9 +139,29 @@ input::placeholder {
     margin-bottom: 10px;
 }
 
+.mt-50 {
+    margin-top: 50px;
+}
+
+.ml-15 {
+    margin-left: 35px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
 .m-0 {
     margin: 0 !important;
 }
+
+.m-auto {
+    margin: auto;
+}
+
+/**
+ * Inp
+ */
 
 .style-inp {
     background: #fff;
@@ -74,11 +183,6 @@ input::placeholder {
 .li-footer-elem li a {
     color: black;
     font-size: 14px;
-}
-
-.c-black{
-    color: black;
-    font-size: 20px;
 }
 
 .f-70 {
@@ -109,12 +213,30 @@ input::placeholder {
     color: #d54646 !important;
 }
 
+.c-black{
+    color: black;
+    font-size: 20px;
+}
+
 .c-gray {
     color: #4D4D4D;
 }
 
+.c-gray-light {
+    color: #838383;
+}
+
 .c-white {
-    color: #fff;
+    color: #fff !important;
+}
+
+.c-bread {
+    color: #464646 !important;
+}
+
+.c-bread-active {
+    color: #464646 !important;
+    font-weight: bold !important;
 }
 
 .bg-gray {
@@ -156,6 +278,10 @@ input::placeholder {
     font-size: 20px;
 }
 
+.fs-15 {
+    font-size: 15px !important;
+}
+
 .tl-1 {
     width: 173px;
     height: 2px;
@@ -166,6 +292,11 @@ input::placeholder {
 .df-aic {
     display: flex;
     align-items: center;
+}
+
+.df-jc-c {
+    display: flex !important;
+    justify-content: center !important;
 }
 
 .pos-form {
@@ -250,7 +381,6 @@ input::placeholder {
     text-transform: uppercase;
     margin: 15px 0;
     font-family: 'Futura light', sans-serif !important;
-    
 }
 
 .b_pack{
@@ -258,8 +388,6 @@ input::placeholder {
     border-bottom-left-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
 }
-
-
 
 .btn_more_info{
     color: black;
@@ -270,7 +398,6 @@ input::placeholder {
     width: 100%;
     text-align: left;
     height: 12px;
-    
     margin-top: 14px;
     margin-bottom: 11px;
 }
@@ -319,13 +446,13 @@ body{
     width: 36px;
     height: 130px;
     position: fixed;
-    right: 55px;
-    top: 200px;
+    right: 3%;
+    top: 70%;
     z-index: 999;
 }
 
 .wrapper_call_acction img{
-    width: 35px;
+    width: 50px;
 }
 
 .row_promos .col-md-4{
@@ -334,7 +461,6 @@ body{
 }
 
 .modal-open .modal {
-    
     overflow-y: hidden;
 }
 
@@ -364,4 +490,37 @@ body{
 
 .content-modal-call p{
     font-size: 18px;
+}
+
+/**
+ * Div
+ */
+
+.div-white {
+    background: #fff;
+}
+
+.shadow-div {
+    -webkit-box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.16);
+    box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.16);
+}
+
+@media screen and (min-width: 1280px) {
+    .w-20 {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .mx-width {
+        max-width: 1440px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .w-20 {
+        width: 20%;
+    }
 }
