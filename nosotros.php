@@ -5,9 +5,9 @@
     <?php include_once('./template/head.php') ?>
 <body>
     <?php include_once('./template/header.php') ?>
-	<section>
+	<section class="mx-width">
 		<div class="rows inner_banner bg_nosotros">
-			<div class="container container-title">
+			<div class="container">
 				<ul>
 					<li><a class="c-bread-active" href="index.php">Inicio</a></li>
 					<li><i class="fa fa-angle-right c-bread" aria-hidden="true"></i></li>
@@ -17,7 +17,7 @@
 			</div>
 		</div>
 	</section>
-	<section>
+	<section class="h-800">
 		<div class="rows inn-page-bg com-colo mx-width">
             <div class="df-jc-c">
                 <div class="col-sm-7 mt-50">
@@ -33,8 +33,8 @@
             <div class="col-sm-12 df-jc-c">
                 <div class="row col-sm-10 mt-50">
                     <div class="col-md-4">
-                        <div class="div-white shadow-div text-center pd-20">
-                            <img src="./assets/images/boni/mision.svg" alt="mision">
+                        <div class="tips_travel_2">
+                            <i class="fa fa-bullseye" aria-hidden="true"></i>
                             <h4 class="mt-50 f-light">Misión</h4>
                             <p class="plr-15 c-gray-light f-medium fs-15">
                                 La mejor manera de viajar con estilo, siempre acompañado y conectado.
@@ -44,8 +44,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="div-white shadow-div text-center pd-20">
-                            <img src="./assets/images/boni/vision.svg" alt="mision">
+                        <div class="tips_travel_2">
+                            <i class="fa fa-binoculars" aria-hidden="true"></i>
                             <h4 class="mt-50 f-light">Visión</h4>
                             <p class="plr-15 c-gray-light f-medium fs-15">
                                 La mejor manera de viajar con estilo, siempre acompañado y conectado.
@@ -55,8 +55,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="div-white shadow-div text-center pd-20">
-                            <img src="./assets/images/boni/philosophy.svg" alt="mision">
+                        <div class="tips_travel_2">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
                             <h4 class="mt-50 f-light">Filosofía</h4>
                             <p class="plr-15 c-gray-light f-medium fs-15">
                                 La mejor manera de viajar con estilo, siempre acompañado y conectado.

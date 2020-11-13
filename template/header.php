@@ -15,9 +15,10 @@
                         <a href="#!" class="ed-mi-close">
                             <i class="fa fa-times"></i>
                         </a>
-                        <h4>Home pages</h4>
-                        <h4>Tour Packages</h4>
-                        <h4>Sighe Seeings Pages</h4>
+                        <h4><a href="index.php">Inicio</a></h4>
+                        <h4><a href="#top" class="mm-arr">Top Hotels</a></h4>
+                        <h4><a href="#lifestyle">My Lifestyle</a></h4>
+                        <h4><a href="#trendy" class="mm-arr">Trendy Destinations</a></h4>
                     </div>
                 </div>
             </div>
@@ -34,10 +35,10 @@
                     </div>
                     <div class="main-menu">
                         <ul>
-                            <li><a href="index.php">Inicio</a></li>
-                            <li><a href="#top" class="mm-arr">Top Bundles</a></li>
-                            <li><a href="#lifestyle">My Lifestyle</a></li>
-                            <li><a href="#trendy" class="mm-arr">Trendy Destinations</a></li>
+                            <li><a id="index-btn" href="index.php">Inicio</a></li>
+                            <li><a id="bundles-btn" href="#top" class="mm-arr">Top Hotels</a></li>
+                            <li><a id="life-btn" href="#lifestyle">My Lifestyle</a></li>
+                            <li><a id="trendy-btn" href="#trendy" class="mm-arr">Trendy Destinations</a></li>
                         </ul>
                     </div>
                 </div>

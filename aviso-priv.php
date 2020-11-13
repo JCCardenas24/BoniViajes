@@ -5,9 +5,9 @@
     <?php include_once('./template/head.php') ?>
 <body>
     <?php include_once('./template/header.php') ?>
-	<section>
+	<section class="mx-width">
 		<div class="rows inner_banner bg_aviso">
-			<div class="container container-title">
+			<div class="container">
 				<ul>
 					<li><a class="c-bread-active" href="index.php">Inicio</a></li>
 					<li><i class="fa fa-angle-right c-bread" aria-hidden="true"></i></li>
@@ -17,7 +17,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="mx-width ">
+	<section class="mx-width h-500">
 		<div class="rows inn-page-bg com-colo df-jc-c">
             <div class="col-sm-10 mt-50 mb-50">
                 <p class="f-book">
