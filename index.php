@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>The Travel - Tour Travel</title>
+    <title>Boniviajes</title>
     <?php include_once('./template/head.php') ?>
 </head>
 
@@ -27,7 +27,11 @@
                                 <img src="./assets/images/boni/Slides/rosewood_sma.png" alt="">
                             </li>
                             <div class="col-md-6">
+                               
                                 <form class="row pos-form col-md-11">
+                               <div class="col-md-12">
+                               <p class="c-white">Despreocúpate por los detalles, nosotros nos encargamos.</p>
+                               </div>
                                     <div class="col-md-12">
                                         <input type="text" id="nombre" class="style-inp" placeholder="Nombre">
                                     </div>
@@ -47,8 +51,9 @@
                                             condiciones y el Aviso de privacidad</label>
                                     </div>
                                     <div class="col-md-12 mt-15">
-                                        <button
-                                            class="btn col-md-12 materialize-red white-text f-50 fw-b">¡Llámame!</button>
+                                        <a class="btn col-md-12 materialize-red white-text f-50 fw-b"
+                                            data-toggle="modal" data-target="#myModal2"
+                                            style="text-transform: capitalize;">¡Llámame!</a>
                                     </div>
                                 </form>
                             </div>
@@ -58,12 +63,32 @@
             </div>
         </div>
     </section>
+    <!-- Modal -->
+    <div id="myModal2" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="text-center content-modal-call">
+                    <h1>¡GRACIAS!</h1>
+                    <p>Tu solicitud se envió correctamente
+                        Déjanos consentirte uno de nuestros ejecutivos te llamara ahora.</p>
+                    <a href="#" data-dismiss="modal">Continuar</a>
+                </div>
+                <img class="w-100" src="assets/images/boni/gracias2.png" alt="">
+                <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div> -->
+            </div>
+
+        </div>
+    </div>
     <section id="top">
         <div class="rows">
             <div class="container">
                 <div class="text-center p-15">
-                    <h1 class="text-uppercase font-normal f-light">Top <span
-                            class="c-yellow h1 font-normal f-light"> HOTELS</span></h1>
+                    <h1 class="text-uppercase font-normal f-light">Top <span class="c-yellow h1 font-normal f-light">
+                            HOTELS</span></h1>
                     <div class="title-line">
                         <div class="tl-1"></div>
                     </div>
@@ -195,8 +220,8 @@
         <div class="rows">
             <div class="container">
                 <div class="text-center p-15">
-                    <h1 class="text-uppercase font-normal f-light">MY<span
-                            class="c-yellow h1 font-normal f-light"> LIFESTYLE</span></h1>
+                    <h1 class="text-uppercase font-normal f-light">MY<span class="c-yellow h1 font-normal f-light">
+                            LIFESTYLE</span></h1>
                     <div class="title-line">
                         <div class="tl-1"></div>
                     </div>
@@ -328,8 +353,8 @@
         <div class="rows">
             <div class="container">
                 <div class="text-center p-15">
-                    <h1 class="text-uppercase font-normal f-light">TRENDY<span
-                            class="c-yellow h1 font-normal f-light"> DESTINATIONS</span></h1>
+                    <h1 class="text-uppercase font-normal f-light">TRENDY<span class="c-yellow h1 font-normal f-light">
+                            DESTINATIONS</span></h1>
                     <div class="title-line">
                         <div class="tl-1"></div>
                     </div>
@@ -461,8 +486,8 @@
         <div class="rows">
             <div class="container">
                 <div class="text-center p-15">
-                    <h1 class="text-uppercase font-normal f-light">SAIL<span
-                            class="c-yellow h1 font-normal f-light"> AWAY</span></h1>
+                    <h1 class="text-uppercase font-normal f-light">SAIL<span class="c-yellow h1 font-normal f-light">
+                            AWAY</span></h1>
                     <div class="title-line">
                         <div class="tl-1"></div>
                     </div>
@@ -591,6 +616,15 @@
         </div>
     </section>
 
+    <!-- btns call to action -->
+    <div class="wrapper_call_acction">
+        <img src="assets/images/boni/red.png" alt="">
+        <a
+            href="https://api.whatsapp.com/send?phone=525518971284&text=%C2%A1Hola,%20este%20es%20un%20mensaje%20de%20prueba%20%F0%9F%A4%96!">
+            <img src="assets/images/boni/whats.png" alt=""></a>
+
+        <img src="assets/images/boni/msn.png" alt="">
+    </div>
 
     <?php include_once('./template/footer.php') ?>
     <script src="./assets/js/jquery-latest.min.js"></script>

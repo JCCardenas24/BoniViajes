@@ -10,7 +10,7 @@
                                 <img src="./assets/images/boni/registro.png" alt="">
                             </div>
                             <div class="col-sm-3 foot-spec foot-com">
-                                <h4 class="f-light">Acerca de nosotros</h4>
+                                <h4 class="f-light"><a class="f-light c-black" href="nosotros.php">Acerca de nosotros</a></h4>
                                 
                             </div>
                             <div class="col-sm-3 col-md-3 foot-spec foot-com">
@@ -18,7 +18,7 @@
                                 <ul class="li-footer-elem">
                                    
                                     <li><a class="f-light" href="#">Contrato adhesión</a></li>
-                                    <li><a class="f-light" href="#">Aviso de privacidad</a></li>
+                                    <li><a class="f-light" href="aviso-privacidad.php">Aviso de privacidad</a></li>
                                    
                                 </ul>
                             </div>

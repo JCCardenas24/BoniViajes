@@ -76,6 +76,11 @@ input::placeholder {
     font-size: 14px;
 }
 
+.c-black{
+    color: black;
+    font-size: 20px;
+}
+
 .f-70 {
     font-size: 70px;
 }
@@ -165,9 +170,16 @@ input::placeholder {
 
 .pos-form {
     position: absolute;
-    top: 70px;
+    top: 40px;
     left: 100%;
     z-index: 2;
+}
+
+.pos-form p{
+    line-height: 1;
+    margin-bottom: 16px !important;
+    font-size: 20px;
+    font-weight: normal
 }
 
 .pos-btn {
@@ -287,4 +299,69 @@ input::placeholder {
 
 .foot-sec2{
     margin-top: 65px;
+}
+
+body{
+    padding-right: 0 !important;
+}
+
+
+#myModal .modal-dialog .modal-content{
+    width: 600px;
+    height: 600px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.wrapper_call_acction{
+    width: 36px;
+    height: 130px;
+    position: fixed;
+    right: 55px;
+    top: 200px;
+    z-index: 999;
+}
+
+.wrapper_call_acction img{
+    width: 35px;
+}
+
+.row_promos .col-md-4{
+    margin-top: 18.5px;
+    margin-bottom: 18.5px;
+}
+
+.modal-open .modal {
+    
+    overflow-y: hidden;
+}
+
+.content-modal-call{
+    width: 485px;
+    position: absolute;
+    top: 40%; right: 50%;
+  transform: translate(50%,-50%);
+}
+
+.content-modal-call a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 285px;
+    height: 45px;
+    background-color: #D54646;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.content-modal-call h1{
+    font-size: 60px;
+}
+
+.content-modal-call p{
+    font-size: 18px;
 }
