@@ -44,7 +44,7 @@
                                         <label for="filled-in-box" class="f-14 c-white">He leído los Términos y condiciones y el Aviso de privacidad</label>
                                     </div>
                                     <div class="col-md-12 mt-15">
-                                        <a class="btn col-md-12 materialize-red white-text f-50 fw-b" data-toggle="modal" data-target="#myModal2" style="text-transform: capitalize;">¡Llámame!</a>
+                                        <a class="btn col-md-12 materialize-red white-text f-50 f-medium" data-toggle="modal" data-target="#myModal2" style="text-transform: capitalize;">¡Llámame!</a>
                                     </div>
                                 </form>
                             </div>
@@ -86,7 +86,7 @@
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
-                                <h4 class="mb-0 text-uppercase">The Grand Moon Palace</h4>
+                                <h4 class="mb-0 text-uppercase f-medium">The Grand Moon Palace</h4>
                                 <small class="c-red f-8">Desde</small>
                                 <p class="c-red f-16">$20,400</p>
                                 <button
