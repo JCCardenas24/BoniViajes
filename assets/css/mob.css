@@ -260,7 +260,7 @@
          padding-top: 0px;
     }
      .b_pack h4 {
-         text-align: center;
+         text-align: left !important;
          margin-bottom: 5px;
     }
      .family img {

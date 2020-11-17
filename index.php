@@ -80,7 +80,7 @@
         </div>
     </div>
     <section id="top">
-        <div class="col-md-12 mt-20">
+        <div id="main" class="col-md-12 mt-20">
             <form class="row col-md-11 form-mobile">
                 <div class="col-md-12">
                     <p class="c-gray-dark h3 mb-10">Despreocúpate por los detalles, nosotros nos encargamos.</p>
@@ -120,14 +120,14 @@
                 <div class="row row_promos">
                     <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                         <div class="v_place_img">
-                            <img src="./assets/images/hotels/img_1.png" alt="Tour Booking" title="Tour Booking">
+                            <img src="./assets/images/boni/Hoteles de lujo/nobu.png" alt="Tour Booking" title="Tour Booking">
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
                                 <h4 class="mb-0 text-uppercase f-medium">Nobu</h4>
                                 <small class="c-red f-8">Desde</small>
                                 <p class="c-red f-16">$24,000</p>
-                                <a href="#main" class="btn col-md-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
+                                <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
                                 <button type="button" class="btn btn_more_info collapsed" data-toggle="collapse"
                                     data-target="#grandMoon" aria-expanded="false"><i class="fa fa-plus f-8"></i> INFORMACIÓN</button>
                                 <div id="grandMoon" class="collapse" aria-expanded="false" style="height: 0px;">
@@ -142,14 +142,14 @@
                     </div>
                     <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                         <div class="v_place_img">
-                            <img src="./assets/images/hotels/img_1.png" alt="Tour Booking" title="Tour Booking">
+                            <img src="./assets/images/boni/Hoteles de lujo/grandvelas_cabos@2x.png" alt="Tour Booking" title="Tour Booking">
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
                                 <h4 class="mb-0 mb-0 text-uppercase f-medium">Grand Velas Los Cabos</h4>
                                 <small class="c-red f-8">Desde</small>
                                 <p class="c-red f-16">$41,000</p>
-                                <a href="#main" class="btn col-md-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
+                                <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
                                 <button type="button" class="btn btn_more_info collapsed" data-toggle="collapse"
                                     data-target="#hardRock" aria-expanded="false">+ INFORMACIÓN</button>
                                 <div id="hardRock" class="collapse" aria-expanded="false" style="height: 0px;">
@@ -164,14 +164,14 @@
                     </div>
                     <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                         <div class="v_place_img">
-                            <img src="./assets/images/hotels/img_1.png" alt="Tour Booking" title="Tour Booking">
+                            <img src="./assets/images/boni/Hoteles de lujo/rosewood.png" alt="Tour Booking" title="Tour Booking">
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
                                 <h4 class="mb-0 mb-0 text-uppercase f-medium">Rosewood San Miguel</h4>
                                 <small class="c-red f-8">Desde</small>
                                 <p class="c-red f-16">$12,800</p>
-                                <a href="#main" class="btn col-md-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
+                                <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
                                 <button type="button" class="btn btn_more_info collapsed" data-toggle="collapse"
                                     data-target="#mujeres4" aria-expanded="false">+ INFORMACIÓN</button>
                                 <div id="mujeres4" class="collapse" aria-expanded="false" style="height: 0px;">
@@ -186,14 +186,14 @@
                     </div>
                     <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                         <div class="v_place_img">
-                            <img src="./assets/images/hotels/img_1.png" alt="Tour Booking" title="Tour Booking">
+                            <img src="./assets/images/boni/Hoteles de lujo/santisimatrinidad_hotel@2x.png" alt="Tour Booking" title="Tour Booking">
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
                                 <h4 class="mb-0 mb-0 text-uppercase f-medium">Santísima Trinidad</h4>
                                 <small class="c-red f-8">Desde</small>
                                 <p class="c-red f-16">$5,400</p>
-                                <a href="#main" class="btn col-md-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
+                                <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
                                 <button type="button" class="btn btn_more_info collapsed" data-toggle="collapse"
                                     data-target="#mujeres3" aria-expanded="false">+ INFORMACIÓN</button>
                                 <div id="mujeres3" class="collapse" aria-expanded="false" style="height: 0px;">
@@ -209,14 +209,14 @@
                     </div>
                     <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                         <div class="v_place_img">
-                            <img src="./assets/images/hotels/img_1.png" alt="Tour Booking" title="Tour Booking">
+                            <img src="./assets/images/boni/Hoteles de lujo/azultalavera-hotel@2x.png" alt="Tour Booking" title="Tour Booking">
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
                                 <h4 class="mb-0 text-uppercase f-medium">Azul Talavera</h4>
                                 <small class="c-red f-8">Desde</small>
                                 <p class="c-red f-16">$10,700</p>
-                                <a href="#main" class="btn col-md-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
+                                <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
                                 <button type="button" class="btn btn_more_info collapsed" data-toggle="collapse"
                                     data-target="#mujeres2" aria-expanded="false">+ INFORMACIÓN</button>
                                 <div id="mujeres2" class="collapse" aria-expanded="false" style="height: 0px;">
@@ -247,14 +247,14 @@
                 <div class="row row_promos">
                     <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                         <div class="v_place_img">
-                            <img src="./assets/images/hotels/img_1.png" alt="Tour Booking" title="Tour Booking">
+                            <img src="./assets/images/boni/Hoteles de lujo/grandmoonpalace-hotel@2x.png" alt="Tour Booking" title="Tour Booking">
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
                                 <h4 class="text-uppercase f-medium">The Grand Moon Palace </h4>
                                 <small class="c-red f-8">Desde</small>
                                 <p class="c-red f-16">$22,000</p>
-                                <a href="#main" class="btn col-md-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
+                                <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
                                 <button type="button" class="btn btn_more_info collapsed" data-toggle="collapse"
                                     data-target="#nobu" aria-expanded="false">+ INFORMACIÓN</button>
                                 <div id="nobu" class="collapse" aria-expanded="false" style="height: 0px;">
@@ -269,14 +269,14 @@
                     </div>
                     <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                         <div class="v_place_img">
-                            <img src="./assets/images/hotels/img_1.png" alt="Tour Booking" title="Tour Booking">
+                            <img src="./assets/images/boni/Hoteles de lujo/hardrock-hotel@2x.png" alt="Tour Booking" title="Tour Booking">
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
                                 <h4 class="text-uppercase f-medium">Hard Rock</h4>
                                 <small class="c-red f-8">Desde</small>
                                 <p class="c-red f-16">$20,400</p>
-                                <a href="#main" class="btn col-md-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
+                                <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
                                 <button type="button" class="btn btn_more_info collapsed" data-toggle="collapse"
                                     data-target="#sanMiguel" aria-expanded="false">+ INFORMACIÓN</button>
                                 <div id="sanMiguel" class="collapse" aria-expanded="false" style="height: 0px;">
@@ -290,14 +290,14 @@
                     </div>
                     <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                         <div class="v_place_img">
-                            <img src="./assets/images/hotels/img_1.png" alt="Tour Booking" title="Tour Booking">
+                            <img src="./assets/images/boni/Hoteles de lujo/dreams_playamuejeres_hoteles@2x.png" alt="Tour Booking" title="Tour Booking">
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
                                 <h4 class="mb-0 text-uppercase f-medium">Dreams Playa Mujeres Golf Resort & Spa</h4>
                                 <small class="c-red f-8">Desde</small>
                                 <p class="c-red f-16">$30,400</p>
-                                <a href="#main" class="btn col-md-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
+                                <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
                                 <button type="button" class="btn btn_more_info collapsed" data-toggle="collapse"
                                     data-target="#grandCabos" aria-expanded="false">+ INFORMACIÓN</button>
                                 <div id="grandCabos" class="collapse" aria-expanded="false" style="height: 0px;">
@@ -310,14 +310,14 @@
                     </div>
                     <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                         <div class="v_place_img">
-                            <img src="./assets/images/hotels/img_1.png" alt="Tour Booking" title="Tour Booking">
+                            <img src="./assets/images/boni/Hoteles de lujo/secrets-hotels@2x.png" alt="Tour Booking" title="Tour Booking">
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
                                 <h4 class="mb-0 text-uppercase f-medium">Secrets Playa Mujeres Golf Resort & Spa</h4>
                                 <small class="c-red f-8">Desde</small>
                                 <p class="c-red f-16">$30,400</p>
-                                <a href="#main" class="btn col-md-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
+                                <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
                                 <button type="button" class="btn btn_more_info collapsed" data-toggle="collapse"
                                     data-target="#playaMujeres1" aria-expanded="false">+ INFORMACIÓN</button>
                                 <div id="playaMujeres1" class="collapse" aria-expanded="false" style="height: 0px;">
@@ -331,14 +331,14 @@
                     </div>
                     <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                         <div class="v_place_img">
-                            <img src="./assets/images/hotels/img_1.png" alt="Tour Booking" title="Tour Booking">
+                            <img src="./assets/images/boni/Hoteles de lujo/grandvelasvallarta-hotel@2x.png" alt="Tour Booking" title="Tour Booking">
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
                                 <h4 class="mb-0 text-uppercase f-medium">Grand Velas Puerto Vallarta</h4>
                                 <small class="c-red f-8">Desde</small>
                                 <p class="c-red f-16">$33,658.80</p>
-                                <a href="#main" class="btn col-md-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
+                                <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
                                 <button type="button" class="btn btn_more_info collapsed" data-toggle="collapse"
                                     data-target="#playaMujeres" aria-expanded="false">+ INFORMACIÓN</button>
                                 <div id="playaMujeres" class="collapse" aria-expanded="false" style="height: 0px;">
@@ -369,14 +369,14 @@
                 <div class="row row_promos">
                     <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                         <div class="v_place_img">
-                            <img src="./assets/images/hotels/img_1.png" alt="Tour Booking" title="Tour Booking">
+                            <img src="./assets/images/boni/Destinos/loscabos@2x.png" alt="Tour Booking" title="Tour Booking">
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
                                 <h4 class="mb-0 text-uppercase f-medium">Los Cabos</h4>
                                 <small class="c-red f-8"></small>
                                 <p class="c-red f-16"></p>
-                                <a href="#main" class="btn col-md-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
+                                <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
                                 <button type="button" class="btn btn_more_info collapsed" data-toggle="collapse"
                                     data-target="#puebla" aria-expanded="false">+ INFORMACIÓN</button>
                                 <div id="puebla" class="collapse" aria-expanded="false" style="height: 0px;">
@@ -391,14 +391,14 @@
                     </div>
                     <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                         <div class="v_place_img">
-                            <img src="./assets/images/hotels/img_1.png" alt="Tour Booking" title="Tour Booking">
+                            <img src="./assets/images/boni/Destinos/rivieramaya@2x.png" alt="Tour Booking" title="Tour Booking">
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
                                 <h4 class="mb-0 text-uppercase f-medium">Cancún</h4>
                                 <small class="c-red f-8"></small>
                                 <p class="c-red f-16"></p>
-                                <a href="#main" class="btn col-md-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
+                                <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
                                 <button type="button" class="btn btn_more_info collapsed" data-toggle="collapse"
                                     data-target="#cabos" aria-expanded="false">+ INFORMACIÓN</button>
                                 <div id="cabos" class="collapse" aria-expanded="false" style="height: 0px;">
@@ -412,14 +412,14 @@
                     </div>
                     <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                         <div class="v_place_img">
-                            <img src="./assets/images/hotels/img_1.png" alt="Tour Booking" title="Tour Booking">
+                            <img src="./assets/images/boni/Destinos/sma_destinos@2x.png" alt="Tour Booking" title="Tour Booking">
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
                                 <h4 class="mb-0 text-uppercase f-medium">San miguel</h4>
                                 <small class="c-red f-8"></small>
                                 <p class="c-red f-16"></p>
-                                <a href="#main" class="btn col-md-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
+                                <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
                                 <button type="button" class="btn btn_more_info collapsed" data-toggle="collapse"
                                     data-target="#riviera" aria-expanded="false">+ INFORMACIÓN</button>
                                 <div id="riviera" class="collapse" aria-expanded="false" style="height: 0px;">
@@ -433,14 +433,14 @@
                     </div>
                     <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                         <div class="v_place_img">
-                            <img src="./assets/images/hotels/img_1.png" alt="Tour Booking" title="Tour Booking">
+                            <img src="./assets/images/boni/Destinos/puebla.png" alt="Tour Booking" title="Tour Booking">
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
                                 <h4 class="mb-0 text-uppercase f-medium">puebla</h4>
                                 <small class="c-red f-8"></small>
                                 <p class="c-red f-16"></p>
-                                <a href="#main" class="btn col-md-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
+                                <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
                                 <button type="button" class="btn btn_more_info collapsed" data-toggle="collapse"
                                     data-target="#puebla2" aria-expanded="false">+ INFORMACIÓN</button>
                                 <div id="puebla2" class="collapse" aria-expanded="false" style="height: 0px;">
@@ -454,14 +454,14 @@
                     </div>
                     <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                         <div class="v_place_img">
-                            <img src="./assets/images/hotels/img_1.png" alt="Tour Booking" title="Tour Booking">
+                            <img src="./assets/images/boni/Destinos/vallarta_destinos@2x.png" alt="Tour Booking" title="Tour Booking">
                         </div>
                         <div class="b_pack rows">
                             <div class="col-md-12 col-sm-12">
                                 <h4 class="mb-0 text-uppercase f-medium">puerto vallarta</h4>
                                 <small class="c-red f-8"></small>
                                 <p class="c-red f-16"></p>
-                                <a href="#main" class="btn col-md-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
+                                <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap">Llámame</a href="#main">
                                 <button type="button" class="btn btn_more_info collapsed" data-toggle="collapse"
                                     data-target="#cabos2" aria-expanded="false">+ INFORMACIÓN</button>
                                 <div id="cabos2" class="collapse" aria-expanded="false" style="height: 0px;">
@@ -628,7 +628,6 @@
         <a target=”_blank” href="https://api.whatsapp.com/send?phone=5215561220592&text=%C2%A1Hola,%20este%20es%20un%20mensaje%20de%20prueba%20%F0%9F%A4%96!">
             <img class="mt-15 mb-15" src="assets/images/boni/whatsapp.svg" alt="wa">
         </a>
-        <!-- Load Facebook SDK for JavaScript -->
     </div>
     <?php include_once('./template/footer.php') ?>
     <script src="./assets/js/jquery-latest.min.js"></script>
@@ -638,5 +637,8 @@
     <script src="./assets/js/custom.js"></script>
     <script src="./assets/js/function.min.js"></script>
     <script src="//code.tidio.co/qhv2citaquldyh7hvjxpbg5o3zsc6r3o.js" async></script>
+    <script>
+        document.getElementsByTagName('iframe')[1].style.top = '70%';
+    </script>
 </body>
 </html>

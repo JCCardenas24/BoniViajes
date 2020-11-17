@@ -15,10 +15,10 @@
                         <a href="#!" class="ed-mi-close">
                             <i class="fa fa-times"></i>
                         </a>
-                        <h4><a href="index.php">Inicio</a></h4>
-                        <h4><a href="#top" class="mm-arr">Top Hotels</a></h4>
-                        <h4><a href="#lifestyle">My Lifestyle</a></h4>
-                        <h4><a href="#trendy" class="mm-arr">Trendy Destinations</a></h4>
+                        <h4><a href="index.php" style="color: #333">Inicio</a></h4>
+                        <h4><a href="#top" class="mm-arr" style="color: #333">Top Hotels</a></h4>
+                        <h4><a href="#lifestyle" style="color: #333">My Lifestyle</a></h4>
+                        <h4><a href="#trendy" style="color: #333" class="mm-arr">Trendy Destinations</a></h4>
                     </div>
                 </div>
             </div>

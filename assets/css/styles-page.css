@@ -27,6 +27,14 @@
     src: url('../fonts/futura-std-webfont/FuturaStdBold.woff') format('woff');
 }
 
+* {
+    -webkit-overflow-scrolling: touch !important;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
 input::placeholder {
     color: #9B9B9B;
 }

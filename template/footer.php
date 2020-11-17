@@ -21,11 +21,11 @@
                             <div class="col-sm-3 foot-social foot-spec foot-com">
                                 <h4 class="f-medium">Síguenos</h4>
                                 <p class="f-medium">
-                                    Creamos experiencias únicas en donde el consumidor es nuestro centro. Y en los íconos de las redes deben aparecer solo Instagram y Facebook.
+                                    Creamos experiencias únicas en donde el consumidor es nuestro centro.
                                 </p>
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-facebook f-30" aria-hidden="true"></i></a> </li>
-                                    <li><a href="#"><i class="fa fa-instagram f-30" aria-hidden="true"></i></a> </li>
+                                    <li><a href="https://www.facebook.com/Boni-Viajes-562977607842181/" target="_blank"><i class="fa fa-facebook f-30" aria-hidden="true"></i></a> </li>
+                                    <li><a href="https://www.instagram.com/boniviajes/" target="_blank"><i class="fa fa-instagram f-30" aria-hidden="true"></i></a> </li>
                                 </ul>
                             </div>
                         </div>
