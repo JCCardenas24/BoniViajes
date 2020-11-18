@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="wed-logo">
-                        <a href="index.php"><img src="./assets/images/boni/logo_bv_web.svg" alt="logo" width="150"></a>
+                        <a href="/"><img src="./assets/images/boni/logo_bv_web.svg" alt="logo" width="150"></a>
                     </div>
                     <div class="main-menu">
                         <ul>

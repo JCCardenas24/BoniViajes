@@ -14,7 +14,7 @@
                             <div class="col-sm-3 col-md-3 foot-spec foot-com">
                                 <h4 class="f-medium">Seguridad</h4>
                                 <ul class="li-footer-elem">
-                                    <li><a class="f-medium" href="#">Contrato adhesión</a></li>
+                                    <li><a class="f-medium" href="terminos.php">Términos & Condiciones</a></li>
                                     <li><a class="f-medium" href="aviso-priv.php">Aviso de privacidad</a></li>
                                 </ul>
                             </div>

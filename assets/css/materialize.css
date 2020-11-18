@@ -6785,7 +6785,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 .slider {
     position: relative;
-    height: 400px;
+    height: 360px !important;
     width: 100%;
 }
 .slider.fullscreen {
