@@ -6,7 +6,7 @@
                     <div class="p-15">
                         <div class="row">
                             <div class="col-sm-3 foot-spec foot-com">
-                                <img src="./assets/images/boni/registro.png" alt="">
+                                <a href="http://rnt.sectur.gob.mx/Grd_TurGenerales/?Id_TiposPST=4" target="_blank"><img src="./assets/images/boni/registro.png" alt="registro"></a>
                             </div>
                             <div class="col-sm-3 foot-spec foot-com">
                                 <h4 class="f-book"><a class="f-book c-black" href="nosotros.php">Acerca de nosotros</a></h4>
@@ -20,9 +20,6 @@
                             </div>
                             <div class="col-sm-3 foot-social foot-spec foot-com">
                                 <h4 class="f-medium">Síguenos</h4>
-                                <p class="f-medium">
-                                    Creamos experiencias únicas en donde el consumidor es nuestro centro.
-                                </p>
                                 <ul>
                                     <li><a href="https://www.facebook.com/Boni-Viajes-562977607842181/" target="_blank"><i class="fa fa-facebook f-30" aria-hidden="true"></i></a> </li>
                                     <li><a href="https://www.instagram.com/boniviajes/" target="_blank"><i class="fa fa-instagram f-30" aria-hidden="true"></i></a> </li>

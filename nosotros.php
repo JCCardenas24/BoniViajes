@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>The Travel - Tour Travel</title>
+    <title>Boniviajes - Nosotros</title>
     <?php include_once('./template/head.php') ?>
 <body>
     <?php include_once('./template/header.php') ?>
@@ -107,7 +107,6 @@
         </a>
         <!-- Load Facebook SDK for JavaScript -->
     </div>
-
     <?php include_once('./template/footer.php') ?>
     <script src="./assets/js/jquery-latest.min.js"></script>
     <script src="./assets/js/bootstrap.js"></script>

@@ -43,6 +43,10 @@ input::placeholder {
     color: #333 !important;
 }
 
+#ol-order li {
+    color: #333 !important;
+}
+
 #nosotrosul li {
     list-style: none;
 }
@@ -51,9 +55,15 @@ input::placeholder {
     content: "\2022";
     color: red;
     font-weight: bold;
-    display: inline-block; 
+    display: inline-block;
     width: 1em;
     margin-left: -1em;
+}
+
+#enviarCorreo:disabled {
+    background-color: #cc5c5c !important;
+    color: #c9c8c8 !important;
+    opacity: 1;
 }
 
 /**
@@ -215,6 +225,14 @@ input::placeholder {
     font-size: 14px;
 }
 
+.is-invalid {
+    border: 3px #cc5c5c solid;
+}
+
+.is-valid {
+    border: 3px #008000 solid;
+}
+
 /**
  * Fonts
  */
@@ -330,6 +348,10 @@ input::placeholder {
 
 .fs-20 {
     font-size: 20px;
+}
+
+.fs-8 {
+    font-size: 8px;
 }
 
 .fs-15 {
@@ -505,7 +527,7 @@ body{
     height: 130px;
     position: fixed;
     right: 3.2%;
-    top: 67%;
+    top: 75%;
     z-index: 999;
 }
 
@@ -605,6 +627,18 @@ body{
         background: #fdf4da;
         padding-top: 60px;
         padding-bottom: 50px;
+    }
+
+    .f-8 {
+        font-size: 12px !important;
+    }
+
+    .f-16 {
+        font-size: 20px !important;
+    }
+
+    .f-res-20 {
+        font-size: 20px !important;
     }
 
     .d-mobile {
