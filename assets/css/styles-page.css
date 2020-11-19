@@ -652,6 +652,15 @@ body{
     .pre-15 {
         padding-bottom: 15px;
     }
+
+    .wrapper_call_acction{
+        width: 36px;
+        height: 130px;
+        position: fixed;
+        right: 8%;
+        top: 75%;
+        z-index: 999;
+    }
 }
 
 @media screen and (min-width: 768px) {
