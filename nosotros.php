@@ -17,7 +17,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="h-800">
+	<section class="">
 		<div class="rows inn-page-bg com-colo mx-width">
             <div class="df-jc-c">
                 <div class="col-sm-7 mt-50">
@@ -38,9 +38,7 @@
                             <i class="fa fa-bullseye" aria-hidden="true"></i>
                             <h4 class="mt-50 f-light">Misión</h4>
                             <p class="plr-15 c-gray-light f-medium fs-15">
-                                La mejor manera de viajar con estilo, siempre acompañado y conectado.
-                                Ofrecer nuevas maneras de entender una cultura o descubrir un destino,
-                                a través experiencias únicas, lujosas y auténticas, desde un submarino, hasta bailar en la Luna.
+                            Ser tu Smart Traveler Shoper.
                             </p>
                         </div>
                     </div>
@@ -49,9 +47,7 @@
                             <i class="fa fa-binoculars" aria-hidden="true"></i>
                             <h4 class="mt-50 f-light">Visión</h4>
                             <p class="plr-15 c-gray-light f-medium fs-15">
-                                La mejor manera de viajar con estilo, siempre acompañado y conectado.
-                                Ofrecer nuevas maneras de entender una cultura o descubrir un destino,
-                                a través experiencias únicas, lujosas y auténticas, desde un submarino, hasta bailar en la Luna.
+                            La mejor manera de viajar con estilo, siempre acompañado y conectado. Ofrecer nuevas maneras de entender una cultura o descubrir un destino, a través experiencias únicas, lujosas y auténticas, desde un submarino, hasta bailar en la Luna.
                             </p>
                         </div>
                     </div>
@@ -60,9 +56,13 @@
                             <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
                             <h4 class="mt-50 f-light">Filosofía</h4>
                             <p class="plr-15 c-gray-light f-medium fs-15">
-                                La mejor manera de viajar con estilo, siempre acompañado y conectado.
-                                Ofrecer nuevas maneras de entender una cultura o descubrir un destino,
-                                a través experiencias únicas, lujosas y auténticas, desde un submarino, hasta bailar en la Luna.
+                            Construimos relaciones y emociones que duran para siempre.
+Brindamos un servicio boutique, profesional, respetuoso, resolutivo, personalizado y confiable.
+La tecnología viaja con nosotros siempre en la maleta.
+La sed de conocimiento nos mantienen actualizados, proactivos y resolutivos.
+La confianza, confidencialidad y privacidad de nuestros clientes, proveedores y colaboradores es lo más importante.
+Nuestras acciones de mejora, nos hacen crecer 1% cada día.
+Todos formamos parte de la misma tripulación, juntos lograremos las metas más ambiciosas: la Luna.
                             </p>
                         </div>
                     </div>
