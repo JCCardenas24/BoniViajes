@@ -16,13 +16,13 @@
                                 <img src="./assets/images/boni/Slides/boniviajes@2x.png" alt="inicio">
                             </li>
                             <li>
-                                <img src="./assets/images/boni/Slides/grandvelas_loscabos.png" alt="cabos">
+                                <img src="./assets/images/boni/Slides/grandvelas_loscabos@2x.png" alt="cabos">
                             </li>
                             <li>
-                                <img src="./assets/images/boni/Slides/nobu_loscabos.png" alt="nobu">
+                                <img src="./assets/images/boni/Slides/nobu_loscabos@2x.png" alt="nobu">
                             </li>
                             <li>
-                                <img src="./assets/images/boni/Slides/rosewood_sma.png" alt="rosewood">
+                                <img src="./assets/images/boni/Slides/rosewood_sma@2x.png" alt="rosewood">
                             </li>
                             <div class="col-md-6">
                                 <form class="row pos-form col-md-11" action="./assets/mail/send.php" method="POST">
@@ -77,7 +77,8 @@
                     <h4>¡GRACIAS!</h4>
                     <p class="f-18">Tu solicitud se envió correctamente.</p>
                     <p class="f-18" style="width: 60%; margin: auto;">Déjanos consentirte, nuestro concierge te llamará ahora.</p>
-                    <a href="#" data-dismiss="modal" class="mt-15">Continuar</a>
+                    <a href="#" data-dismiss="modal" class="mt-15 form-desktop">Continuar</a>
+                    <button id="continue" data-dismiss="modal" class="btn col-8 m-auto materialize-red white-text f-50 mt-15 f-medium d-mobile">Continuar</button>
                 </div>
                 <img class="w-100" src="assets/images/boni/gracias2.png" alt="">
             </div>
@@ -85,7 +86,7 @@
     </div>
     <section id="top">
         <div id="formRes" class="col-md-12 mt-20">
-            <form class="row col-md-11 form-mobile" action="./assets/mail/send.php" method="POST">
+            <form class="row col-md-11 form-mobile" action="./assets/mail/send-responsive.php" method="POST">
                 <div class="col-md-12">
                     <p class="c-gray-dark h3 mb-10">Despreocúpate por los detalles, nosotros nos encargamos.</p>
                 </div>
@@ -106,7 +107,7 @@
                     <label class="form-check-label f-10 c-white" for="checkTerminosRes">He leído los <a href="terminos.php" target="_blank" class="c-gray f-10">Términos & Condiciones</a> y el <a href="aviso-priv.php" target="_blank" class="c-gray f-10">Aviso de privacidad</a></label>
                 </div>
                 <div class="col-md-12 col-xs-12 mt-15">
-                    <button id="enviarCorreoRes" type="submit" name="submit" value="Send" class="btn col-md-12 col-xs-12 materialize-red white-text f-50 f-medium" data-toggle="modal" data-target="#myModal2" style="text-transform: capitalize;" disabled>¡Llámame!</button>
+                    <button id="enviarCorreoRes" class="btn col-md-12 col-xs-12 materialize-red white-text f-50 f-medium" style="text-transform: capitalize;" disabled>¡Llámame!</button>
                 </div>
             </form>
         </div>

@@ -6,42 +6,64 @@ const inptsRes = document.querySelectorAll('.validateRes');
 const btnSendDataRes = document.getElementById('enviarCorreoRes');
 const checkTCRes = document.getElementById('checkTerminosRes');
 
-inptsRes.forEach(element => {
-    element.addEventListener('focusout', function() {
-        let inptsValid = document.querySelectorAll('.is-valid').length + 1;
-        if((inptsRes.length === (inptsValid))) {
-            console.log(inptsValid);
-            checkTCRes.addEventListener('change', function() {
-                if(this.checked) {
-                    btnSendDataRes.removeAttribute('disabled');
-                    btnSendDataRes.removeAttribute('disabled');
-                } else {
-                    btnSendDataRes.setAttribute('disabled', true);
-                    btnSendDataRes.setAttribute('disabled', true);
-                }
-            })
+checkTCRes.addEventListener('change', function() {
+    if(this.checked) {
+        let inptsValid = document.querySelectorAll('.is-valid').length;
+        if(inptsValid === 4) {
+            btnSendDataRes.removeAttribute('disabled');
+            btnSendDataRes.removeAttribute('disabled');
         } else {
-            console.log(inptsValid);
             btnSendDataRes.setAttribute('disabled', true);
             btnSendDataRes.setAttribute('disabled', true);
         }
-    })
+    } else {
+        btnSendDataRes.setAttribute('disabled', true);
+        btnSendDataRes.setAttribute('disabled', true);
+    }
 });
 
 nCompletoRes.addEventListener('focusout', function() {
-    let vNom = validateString(this, this.value);
+    let reg = /^[a-zA-Z\u00C0-\u00FF\s]*$/;
+    checkTCRes.checked = false;
+    btnSendDataRes.setAttribute('disabled', true);
+    btnSendDataRes.setAttribute('disabled', true);
+    clearStyles(nCompletoRes);
+    if(nCompletoRes.value != '' && reg.test(nCompletoRes.value)) {
+        nCompletoRes.classList.add('is-valid');
+        return true;
+    } else {
+        nCompletoRes.classList.add('is-invalid');
+        return false;
+    }
 });
 
 correoRes.addEventListener('focusout', function() {
     let vMail = validateMail(this, this.value);
+    checkTCRes.checked = false;
+    btnSendDataRes.setAttribute('disabled', true);
+    btnSendDataRes.setAttribute('disabled', true);
 });
 
 phoneRes.addEventListener('focusout', function() {
     let vPhone = validateNumber(this, this.value);
+    checkTCRes.checked = false;
+    btnSendDataRes.setAttribute('disabled', true);
+    btnSendDataRes.setAttribute('disabled', true);
 });
 
 tripRes.addEventListener('focusout', function() {
-    let vNom = validateString(this, this.value);
+    let reg = /^[a-zA-Z\u00C0-\u00FF\s]*$/;
+    checkTCRes.checked = false;
+    btnSendDataRes.setAttribute('disabled', true);
+    btnSendDataRes.setAttribute('disabled', true);
+    clearStyles(tripRes);
+    if(tripRes.value != '' && reg.test(tripRes.value)) {
+        tripRes.classList.add('is-valid');
+        return true;
+    } else {
+        tripRes.classList.add('is-invalid');
+        return false;
+    }
 });
 
 /**
@@ -53,7 +75,7 @@ tripRes.addEventListener('focusout', function() {
 function validateString(objInp, strInp) {
     let reg = /^[a-zA-Z\u00C0-\u00FF\s]*$/;
     clearStyles(objInp)
-    if(strInp != '' && reg.test(strInp)) {
+    if(strInp != ' ' && reg.test(strInp)) {
         objInp.classList.add('is-valid');
         return true;
     } else {
@@ -72,7 +94,7 @@ function validateString(objInp, strInp) {
 function validateNumber(objInp, numInp) {
     let reg = /[0-9]{10}/;
     clearStyles(objInp);
-    if(numInp != '' && reg.test(numInp)) {
+    if(numInp != ' ' && reg.test(numInp)) {
         objInp.classList.add('is-valid');
         return true;
     } else {
@@ -91,7 +113,7 @@ function validateNumber(objInp, numInp) {
 function validateMail(objInp, strInp) {
     let reg = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
     clearStyles(objInp);
-    if(strInp != '' && reg.test(strInp)) {
+    if(strInp != ' ' && reg.test(strInp)) {
         objInp.classList.add('is-valid');
         return true;
     } else {

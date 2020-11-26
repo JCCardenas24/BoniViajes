@@ -623,7 +623,7 @@ body{
     }
 
     .form-desktop {
-        display: none;
+        display: none !important;
     }
 
     .form-mobile {
