@@ -48,7 +48,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12 mt-10">
-                                        <button id="enviarCorreo" type="submit" name="submit" value="Send" class="btn col-md-12 materialize-red white-text f-50 f-medium" data-toggle="modal" data-target="#myModal2" style="text-transform: capitalize;" disabled>¡Llámame!</button>
+                                        <button id="enviarCorreo" type="submit" name="submit" value="Send" class="btn col-md-12 materialize-red white-text f-50 f-medium" data-toggle="modal" data-target="#myModal2" data-backdrop="static" style="text-transform: capitalize;" disabled>¡Llámame!</button>
                                     </div>
                                 </form>
                             </div>
@@ -66,7 +66,7 @@
                     <h1>¡GRACIAS!</h1>
                     <p>Tu solicitud se envió correctamente.</p>
                     <p>Déjanos consentirte, nuestro concierge te llamará ahora.</p>
-                    <a href="#" data-dismiss="modal">Continuar</a>
+                    <!-- <a href="#" data-dismiss="modal">Continuar</a> -->
                 </div>
                 <img class="w-100" src="assets/images/boni/gracias2.png" alt="">
             </div>
@@ -78,7 +78,7 @@
                     <p class="f-18">Tu solicitud se envió correctamente.</p>
                     <p class="f-18" style="width: 60%; margin: auto;">Déjanos consentirte, nuestro concierge te llamará ahora.</p>
                     <a href="#" data-dismiss="modal" class="mt-15 form-desktop">Continuar</a>
-                    <button id="continue" data-dismiss="modal" class="btn col-8 m-auto materialize-red white-text f-50 mt-15 f-medium d-mobile">Continuar</button>
+                    <!-- <button id="continue" data-dismiss="modal" class="btn col-8 m-auto materialize-red white-text f-50 mt-15 f-medium d-mobile">Continuar</button> -->
                 </div>
                 <img class="w-100" src="assets/images/boni/gracias2.png" alt="">
             </div>
@@ -107,7 +107,7 @@
                     <label class="form-check-label f-10 c-white" for="checkTerminosRes">He leído los <a href="terminos.php" target="_blank" class="c-gray f-10">Términos & Condiciones</a> y el <a href="aviso-priv.php" target="_blank" class="c-gray f-10">Aviso de privacidad</a></label>
                 </div>
                 <div class="col-md-12 col-xs-12 mt-15">
-                    <button id="enviarCorreoRes" class="btn col-md-12 col-xs-12 materialize-red white-text f-50 f-medium" style="text-transform: capitalize;" disabled>¡Llámame!</button>
+                    <button id="enviarCorreoRes" class="btn col-md-12 col-xs-12 materialize-red white-text f-50 f-medium" data-toggle="modal" data-target="#myModal2" data-backdrop="static" style="text-transform: capitalize;" disabled>¡Llámame!</button>
                 </div>
             </form>
         </div>

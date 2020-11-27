@@ -126,3 +126,14 @@ function clearStyles(objElem) {
     objElem.classList.remove('is-valid');
     objElem.classList.remove('is-invalid');
 }
+
+$(function() {
+  $('form').submit(function(event) {
+    event.preventDefault();
+
+    setTimeout(function() {
+      console.log('enviando');
+      event.currentTarget.submit();
+    }, 5000)
+  })
+})
