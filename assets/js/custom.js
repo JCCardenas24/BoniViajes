@@ -1,20 +1,20 @@
 $(document).ready(function() {
-	"use strict";	
-	//MEGA MENU	
+	"use strict";
+	//MEGA MENU
     $(".about-menu").hover(function() {
         $(".about-mm").fadeIn();
     });
     $(".about-menu").mouseleave(function() {
         $(".about-mm").fadeOut();
     });
-    //MEGA MENU	
+    //MEGA MENU
     $(".admi-menu").hover(function() {
         $(".admi-mm").fadeIn();
     });
     $(".admi-menu").mouseleave(function() {
         $(".admi-mm").fadeOut();
     });
-    //MEGA MENU	
+    //MEGA MENU
     $(".cour-menu").hover(function() {
         $(".cour-mm").fadeIn();
     });
@@ -47,7 +47,7 @@ $(document).ready(function() {
     });
     $('.sdb-btn-edit').mouseleave(function() {
         $(this).text("edit my profile");
-    }); 
+    });
     //MOBILE MENU OPEN
     $(".ed-micon").on('click', function() {
         $(".ed-mm-inn").addClass("ed-mm-act");
@@ -175,8 +175,9 @@ function myFunction() {
     }
 }
 
-//DATE PICKER	
+//DATE PICKER
 $(function() {
+	if($.fn.datepicker) {
     var dateFormat = "mm/dd/yy",
         from = $("#from,#from-1,#from-2,#from-3,#from-4,#from-5")
         .datepicker({
@@ -206,4 +207,5 @@ $(function() {
 
         return date;
     }
+	}
 });

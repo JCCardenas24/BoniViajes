@@ -132,8 +132,8 @@ $(function() {
     event.preventDefault();
 
     setTimeout(function() {
-      console.log('enviando');
-      event.currentTarget.submit();
+      $('form').off('submit');
+      $('form').submit();
     }, 5000)
   })
 })
