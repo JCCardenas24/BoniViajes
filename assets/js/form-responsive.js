@@ -130,10 +130,12 @@ function clearStyles(objElem) {
 $(function() {
   $('form').submit(function(event) {
     event.preventDefault();
+    _this = $(this).attr('id');
+    _form = $('#' + _this);
 
     setTimeout(function() {
-      $('form').off('submit');
-      $('form').submit();
+      _form.off('submit');
+      _form.submit();
     }, 5000)
   })
 })
