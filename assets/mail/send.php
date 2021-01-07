@@ -2,6 +2,17 @@
 
 //librerias
 require '../PHPMailer-5.2-stable/PHPMailerAutoload.php';
+require 'Medoo.php';
+
+use Medoo\Medoo;
+
+$database = new Medoo([
+  'database_type' => 'mysql',
+  'database_name' => 'boniviajes',
+  'server' => '107.180.12.35',
+  'username' => 'boniviajes',
+  'password' => 'qzAsPsbEsGA95e2'
+]);
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer();
@@ -23,6 +34,16 @@ $mail->Body = ('El usuario'.$_POST['nCompleto'].' ha solicitado información par
 
 //Avisar si fue enviado o no y dirigir al index
 if ($mail->Send()) {
+  // Salvamos la información en la base de datos  
+  $post = $_POST;
+
+  $database->insert('web', [
+    'nombre' => $post['nCompleto'],
+    'email' => $post['correo'],
+    'telefono' => $post['phone1'],
+    'destino' => $post['destino']
+  ]);
+
     echo'<script type="text/javascript">
            window.location.href = "/"
         </script>';

@@ -25,7 +25,7 @@
                                 <img src="./assets/images/boni/Slides/rosewood_sma@2x.png" alt="rosewood">
                             </li>
                             <div class="col-md-6">
-                                <form class="row pos-form col-md-11" action="./assets/mail/send.php" method="POST">
+                                <form id="form-send" class="row pos-form col-md-11" action="./assets/mail/send.php" method="POST">
                                     <div class="col-md-12">
                                         <p class="c-white">Despreocúpate por los detalles, nosotros nos encargamos.</p>
                                     </div>
@@ -48,7 +48,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12 mt-10">
-                                        <button id="enviarCorreo" type="submit" name="submit" value="Send" class="btn col-md-12 materialize-red white-text f-50 f-medium" data-toggle="modal" data-target="#myModal2" data-backdrop="static" style="text-transform: capitalize;" disabled>¡Llámame!</button>
+                                        <button id="enviarCorreo" class="btn col-md-12 materialize-red white-text f-50 f-medium" data-toggle="modal" data-target="#myModal2" data-backdrop="static" style="text-transform: capitalize;" disabled>¡Llámame!</button>
                                     </div>
                                 </form>
                             </div>
@@ -86,7 +86,7 @@
     </div>
     <section id="top">
         <div id="formRes" class="col-md-12 mt-20">
-            <form class="row col-md-11 form-mobile" action="./assets/mail/send-responsive.php" method="POST">
+            <form id="form-send-responsive" class="row col-md-11 form-mobile" action="./assets/mail/send-responsive.php" method="POST">
                 <div class="col-md-12">
                     <p class="c-gray-dark h3 mb-10">Despreocúpate por los detalles, nosotros nos encargamos.</p>
                 </div>
