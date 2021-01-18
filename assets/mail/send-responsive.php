@@ -3,6 +3,7 @@
 //librerias
 require '../PHPMailer-5.2-stable/PHPMailerAutoload.php';
 require 'Medoo.php';
+require 'Hubspot.php';
 
 use Medoo\Medoo;
 
@@ -32,18 +33,43 @@ $mail->AddAddress("boniviajes.redes@gmail.com");
 $mail->Subject = "Solicitud Boniviajes.com";
 $mail->Body = ('El usuario'.$_POST['nCompleto'].' ha solicitado información para el destino '.$_POST['destino'].' sus datos son: '.$_POST['phone1'].', '.$_POST['correo']);
 
+// Variable amigable n_n
+$post = $_POST;
+
+// Registro en la base de datos
+$database->insert('web', [
+  'nombre' => $post['nCompleto'],
+  'email' => $post['correo'],
+  'telefono' => $post['phone1'],
+  'destino' => $post['destino']
+]);
+
+// Registro en Hubspot
+$arr = array(
+    'properties' => array(
+        array(
+            'property' => 'firstname',
+            'value' => $post['nCompleto']
+        ),
+        array(
+            'property' => 'email',
+            'value' => $post['correo']
+        ),
+        array(
+          'property' => 'phone',
+          'value' => $post['phone1']
+        ),
+        array(
+            'property' => 'message',
+            'value' => $post['destino']
+        ),
+    )
+);
+
+hubspot($arr);
+
 //Avisar si fue enviado o no y dirigir al index
 if ($mail->Send()) {
-  // Salvamos la información en la base de datos
-  $post = $_POST;
-
-  $database->insert('web', [
-    'nombre' => $post['nCompleto'],
-    'email' => $post['correo'],
-    'telefono' => $post['phone1'],
-    'destino' => $post['destino']
-  ]);
-  
     echo'<script type="text/javascript">
            window.location.href = "/"
         </script>';
