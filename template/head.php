@@ -1,5 +1,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Más de 35 años de expertise como agencia de viajes nos respaldan, hoy evolucionamos para crear experiencias únicas. Basados en un modelo de customer centricity, nuestros expertos de destino brindan atención personalizada, global, vía digital o en nuestra boutique, creando una experiencia concierge.">
+<meta name="keywords" content="Azul cabo hotel, Nobu, Tours, boniviajes, Boniviajes, los cabos, Rosewood">
+<meta name="robots" content="INDEX,FOLLOW,ARCHIVE">
 <link rel="shortcut icon" href="images/fav.ico">
 <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
 <link rel="stylesheet" href="./assets/css/style.css">
