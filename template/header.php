@@ -19,6 +19,7 @@
                         <h4><a href="#top" class="mm-arr" style="color: #333">Top Hoteles</a></h4>
                         <h4><a href="#lifestyle" style="color: #333">Paquetes</a></h4>
                         <h4><a href="#trendy" style="color: #333" class="mm-arr">Destinos</a></h4>
+                        <h4><a href="https://boniviajes.com/palace" style="color: #333" class="mm-arr">Palace Resorts</a></h4>
                     </div>
                 </div>
             </div>
@@ -39,6 +40,7 @@
                             <li><a id="bundles-btn" href="#top" class="mm-arr">Top Hoteles</a></li>
                             <li><a id="life-btn" href="#lifestyle">Paquetes</a></li>
                             <li><a id="trendy-btn" href="#trendy" class="mm-arr">Destinos</a></li>
+                            <li><a id="trendy-btn" href="https://boniviajes.com/palace" class="mm-arr">Palace Resorts</a></li>
                         </ul>
                     </div>
                 </div>
