@@ -37,7 +37,7 @@
                                     </div>
                                     <div class="col-md-6 mt-10">
                                         <div class="col-md-4 pl-0">
-                                            <select id="lada" class="browser-default style-inp">
+                                            <select id="lada" name="lada" class="browser-default style-inp">
                                                 <option value="" selected>Lada</option>
                                                 <option value="1">Option 1</option>
                                                 <option value="2">Option 2</option>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="col-md-6 col-xs-12 mt-10">
                     <div class="col-xs-4 pl-0">
-                        <select id="ladaRes" class="browser-default style-inp">
+                        <select id="ladaRes" name="lada" class="browser-default style-inp">
                             <option value="" selected>Lada</option>
                             <option value="1">Option 1</option>
                             <option value="2">Option 2</option>

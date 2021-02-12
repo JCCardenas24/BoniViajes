@@ -8,7 +8,7 @@ const checkTCRes = document.getElementById('checkTerminosRes');
 const inptLadaRes = document.getElementById('ladaRes');
 
 inptLadaRes.addEventListener('change', function() {
-    if(this.value >= 1) {
+    if(this.value != '') {
         telefonoRes.removeAttribute('disabled');
     } else {
         clearStyles(telefonoRes);
