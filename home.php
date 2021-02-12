@@ -38,14 +38,12 @@
                                     <div class="col-md-6 mt-10">
                                         <div class="col-md-4 pl-0">
                                             <select id="lada" name="lada" class="browser-default style-inp">
-                                                <option value="" selected>Lada</option>
-                                                <option value="1">Option 1</option>
-                                                <option value="2">Option 2</option>
-                                                <option value="3">Option 3</option>
+                                                <option value="">Lada</option>
+                                                <option value="MX +52" selected>MX +52</option>
                                             </select>
                                         </div>
                                         <div class="col-md-8 pl-0 pr-0">
-                                            <input type="text" id="phone" name="phone1" class="style-inp validate col-md-6" placeholder="Teléfono" maxlength="10" disabled>
+                                            <input type="text" id="phone" name="phone1" class="style-inp validate col-md-6" placeholder="Teléfono" maxlength="10">
                                         </div>
                                     </div>
                                     <div class="col-md-12 mt-10">
@@ -83,14 +81,12 @@
                 <div class="col-md-6 col-xs-12 mt-10">
                     <div class="col-xs-4 pl-0">
                         <select id="ladaRes" name="lada" class="browser-default style-inp">
-                            <option value="" selected>Lada</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
+                            <option value="">Lada</option>
+                            <option value="MX +52" selected>MX +52</option>
                         </select>
                     </div>
                     <div class="col-xs-8 pl-0 pr-0">
-                        <input type="text" id="phoneRes" name="phone1" class="style-inp validate col-md-6" placeholder="Teléfono" maxlength="10" disabled>
+                        <input type="text" id="phoneRes" name="phone1" class="style-inp validate col-md-6" placeholder="Teléfono" maxlength="10">
                     </div>
                 </div>
                 <div class="col-md-12 col-xs-12 mt-20">
