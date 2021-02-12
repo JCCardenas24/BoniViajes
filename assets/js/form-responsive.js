@@ -5,6 +5,16 @@ const tripRes = document.getElementById('viajeRes');
 const inptsRes = document.querySelectorAll('.validateRes');
 const btnSendDataRes = document.getElementById('enviarCorreoRes');
 const checkTCRes = document.getElementById('checkTerminosRes');
+const inptLadaRes = document.getElementById('ladaRes');
+
+inptLadaRes.addEventListener('change', function() {
+    if(this.value >= 1) {
+        telefonoRes.removeAttribute('disabled');
+    } else {
+        clearStyles(telefonoRes);
+        telefonoRes.setAttribute('disabled', true);
+    }
+});
 
 checkTCRes.addEventListener('change', function() {
     if(this.checked) {

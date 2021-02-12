@@ -37,15 +37,15 @@
                                     </div>
                                     <div class="col-md-6 mt-10">
                                         <div class="col-md-4 pl-0">
-                                            <select class="browser-default style-inp">
-                                                <option value="" disabled selected>Lada</option>
+                                            <select id="lada" class="browser-default style-inp">
+                                                <option value="" selected>Lada</option>
                                                 <option value="1">Option 1</option>
                                                 <option value="2">Option 2</option>
                                                 <option value="3">Option 3</option>
                                             </select>
                                         </div>
                                         <div class="col-md-8 pl-0 pr-0">
-                                            <input type="text" id="phone" name="phone1" class="style-inp validate col-md-6" placeholder="Teléfono" maxlength="10">
+                                            <input type="text" id="phone" name="phone1" class="style-inp validate col-md-6" placeholder="Teléfono" maxlength="10" disabled>
                                         </div>
                                     </div>
                                     <div class="col-md-12 mt-10">
@@ -58,7 +58,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12 mt-10">
-                                        <button id="enviarCorreo" class="btn col-md-12 btn-blue white-text f-50 f-medium" data-toggle="modal" data-target="#myModal2" data-backdrop="static" style="text-transform: capitalize;" disabled>¡Llámame!</button>
+                                        <a href="thanks" id="enviarCorreo" class="btn col-md-12 materialize-red white-text f-50 f-medium" style="text-transform: capitalize;" disabled>¡Llámame!</a>
                                     </div>
                                 </form>
                             </div>
@@ -68,32 +68,6 @@
             </div>
         </div>
     </section>
-    <!-- Modal -->
-    <div id="myModal2" class="modal fade" role="dialog">
-        <div class="modal-dialog form-desktop">
-            <div class="modal-content">
-                <div class="text-center content-modal-call">
-                    <h1>¡GRACIAS!</h1>
-                    <p>Tu solicitud se envió correctamente.</p>
-                    <p>Déjanos consentirte, nuestro concierge te llamará ahora.</p>
-                    <a href="#" data-dismiss="modal">Continuar</a>
-                </div>
-                <img class="w-100" src="assets/images/boni/gracias2.png" alt="">
-            </div>
-        </div>
-        <div class="modal-dialog d-mobile">
-            <div class="modal-content">
-                <div class="text-center content-modal-call">
-                    <h4>¡GRACIAS!</h4>
-                    <p class="f-18">Tu solicitud se envió correctamente.</p>
-                    <p class="f-18" style="width: 60%; margin: auto;">Déjanos consentirte, nuestro concierge te llamará ahora.</p>
-                    <a href="#" data-dismiss="modal" class="mt-15 form-desktop">Continuar</a>
-                    <!-- <button id="continue" data-dismiss="modal" class="btn col-8 m-auto materialize-red white-text f-50 mt-15 f-medium d-mobile">Continuar</button> -->
-                </div>
-                <img class="w-100" src="assets/images/boni/gracias2.png" alt="">
-            </div>
-        </div>
-    </div>
     <section id="top">
         <div id="formRes" class="col-md-12 mt-20">
             <form id="form-send-responsive" class="row col-md-11 form-mobile">
@@ -108,15 +82,15 @@
                 </div>
                 <div class="col-md-6 col-xs-12 mt-10">
                     <div class="col-xs-4 pl-0">
-                        <select class="browser-default style-inp">
-                            <option value="" disabled selected>Lada</option>
+                        <select id="ladaRes" class="browser-default style-inp">
+                            <option value="" selected>Lada</option>
                             <option value="1">Option 1</option>
                             <option value="2">Option 2</option>
                             <option value="3">Option 3</option>
                         </select>
                     </div>
                     <div class="col-xs-8 pl-0 pr-0">
-                        <input type="text" id="phone" name="phone1" class="style-inp validate col-md-6" placeholder="Teléfono" maxlength="10">
+                        <input type="text" id="phoneRes" name="phone1" class="style-inp validate col-md-6" placeholder="Teléfono" maxlength="10" disabled>
                     </div>
                 </div>
                 <div class="col-md-12 col-xs-12 mt-20">
@@ -127,7 +101,7 @@
                     <label class="form-check-label f-10 c-white" for="checkTerminosRes">He leído los <a href="terminos" target="_blank" class="c-gray f-10">Términos & Condiciones</a> y el <a href="aviso-priv" target="_blank" class="c-gray f-10">Aviso de privacidad</a></label>
                 </div>
                 <div class="col-md-12 col-xs-12 mt-15">
-                    <button id="enviarCorreoRes" class="btn col-md-12 col-xs-12 materialize-red white-text f-50 f-medium" data-toggle="modal" data-target="#myModal2" data-backdrop="static" style="text-transform: capitalize;" disabled>¡Llámame!</button>
+                    <a href="thanks.php" id="enviarCorreoRes" class="btn col-md-12 col-xs-12 materialize-red white-text f-50 f-medium" style="text-transform: capitalize;" disabled>¡Llámame!</a>
                 </div>
             </form>
         </div>
