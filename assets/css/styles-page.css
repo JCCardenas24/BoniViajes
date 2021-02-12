@@ -150,6 +150,14 @@ input::placeholder {
     padding-right: 15px;
 }
 
+.pl-0 {
+    padding-left: 0;
+}
+
+.pr-0 {
+    padding-right: 0;
+}
+
 /**
  * Margins
  */
@@ -523,6 +531,14 @@ body{
     width: 100%;
 }
 
+.w-80 {
+    width: 80%;
+}
+
+.w-90 {
+    width: 75%;
+}
+
 .wrapper_call_acction{
     position: fixed;
     right: 12px;
@@ -584,6 +600,10 @@ body{
     background: #fff;
 }
 
+.d-mobile {
+    display: none !important;
+}
+
 .shadow-div {
     -webkit-box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.16);
     -moz-box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.16);
@@ -603,7 +623,7 @@ body{
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     .wed-logo a img{
         width: 250px;
@@ -646,7 +666,7 @@ body{
     }
 
     .d-mobile {
-        display: block;
+        display: block !important;
     }
 
     .content-modal-call {
@@ -664,6 +684,23 @@ body{
         right: 8%;
         top: 75%;
         z-index: 999;
+    }
+
+    .d-flex{
+        display: block !important;
+        width: 100%;
+    }
+
+    .col-25 {
+        width: 100% !important;
+    }
+
+    .w-80 {
+        width: 100% !important;
+    }
+
+    .w-90 {
+        width: 100% !important;
     }
 }
 

@@ -28,7 +28,7 @@
 </section>
 <section>
     <div class="top-logo" data-spy="affix" data-offset-top="250">
-        <div class="container">
+        <div class="container w-80">
             <div class="row">
                 <div class="col-md-12">
                     <div class="wed-logo">

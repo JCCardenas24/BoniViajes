@@ -1,7 +1,7 @@
-<section>
+<footer>
     <div class="rows">
         <div class="footer bg-white">
-            <div class="container">
+            <div class="container w-80">
                 <div class="foot-sec2">
                     <div class="p-15">
                         <div class="row d-flex">
@@ -11,8 +11,8 @@
                             <div class="col-25 foot-spec foot-com">
                                 <h4 class="f-book">Acerca de Boniviajes</h4>
                                 <ul class="li-footer-elem">
-                                    <li><a class="f-medium" href="nosotros.php">Misión, visión y filosofía</a></li>
-                                    <!-- <li><a class="f-medium" href="aviso-priv.php">Visión</a></li> -->
+                                    <li><a class="f-medium" href="nosotros">Misión, visión y filosofía</a></li>
+                                    <!-- <li><a class="f-medium" href="aviso-priv">Visión</a></li> -->
                                 </ul>
                                 <h4 class="f-medium">Visítanos</h4>
                                 <ul class="li-footer-elem">
@@ -29,8 +29,8 @@
                             <div class="col-25 col-md-3 foot-spec foot-com">
                                 <h4 class="f-medium">Seguridad</h4>
                                 <ul class="li-footer-elem">
-                                    <li><a class="f-medium" href="terminos.php">Términos & Condiciones</a></li>
-                                    <li><a class="f-medium" href="aviso-priv.php">Aviso de privacidad</a></li>
+                                    <li><a class="f-medium" href="terminos">Términos & Condiciones</a></li>
+                                    <li><a class="f-medium" href="aviso-priv">Aviso de privacidad</a></li>
                                 </ul>
                             </div>
                             <!-- <div class="col-20 foot-social foot-spec foot-com">
@@ -50,11 +50,11 @@
             </div>
         </div>
     </div>
-</section>
-<section>
+</footer>
+<footer>
     <div class="rows copy">
         <div class="container">
             <p class="f-light">Boniviajes © 2020. Todos los derechos reservados.</p>
         </div>
     </div>
-</section>
+</footer>
