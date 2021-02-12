@@ -135,21 +135,21 @@
     <section id="banners">
         <div class="row w-80 m-auto form-desktop">
             <div class="col-md-4">
+                <img class="w-100" src="./assets/images/boni/categorias/Premium@2x.png" alt="premium">
+            </div>
+            <div class="col-md-4">
                 <a href="home">
-                    <img class="w-100" src="./assets/images/gallery/s3.jpeg" alt="">
+                    <img class="w-100" src="./assets/images/boni/categorias/Lujo@2x.png" alt="lujo">
                 </a>
             </div>
             <div class="col-md-4">
-                <img class="w-100" src="./assets/images/gallery/s3.jpeg" alt="">
-            </div>
-            <div class="col-md-4">
-                <img class="w-100" src="./assets/images/gallery/s3.jpeg" alt="">
+                <img class="w-100" src="./assets/images/boni/categorias/Turista@2x.png" alt="turista">
             </div>
         </div>
         <div class="slider1 mt-20 d-mobile">
-            <div class="col-md-4"><img class="w-100" src="./assets/images/gallery/s3.jpeg" alt=""></div>
-            <div class="col-md-4"><img class="w-100" src="./assets/images/gallery/s3.jpeg" alt=""></div>
-            <div class="col-md-4"><img class="w-100" src="./assets/images/gallery/s3.jpeg" alt=""></div>
+            <div class="col-md-4"><img class="w-100" src="./assets/images/boni/categorias/Lujo@2x.png" alt=""></div>
+            <div class="col-md-4"><img class="w-100" src="./assets/images/boni/categorias/Premium@2x.png" alt=""></div>
+            <div class="col-md-4"><img class="w-100" src="./assets/images/boni/categorias/Turista@2x.png" alt=""></div>
         </div>
     </section>
     <div class="row w-80 m-auto">
@@ -449,7 +449,6 @@
     <script src="./assets/js/function.min.js"></script>
     <script src="./assets/js/form.min.js"></script>
     <script src="./assets/js/form-responsive.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
     <script>
          $('.slider1').slick({
