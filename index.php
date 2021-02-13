@@ -36,7 +36,7 @@
                                         <input type="mail" id="mail" name="correo" class="style-inp validate" placeholder="Correo electrónico">
                                     </div>
                                     <div class="col-md-6 mt-10">
-                                        <div class="col-md-4 pl-0">
+                                        <div class="col-md-4 pl-0 pr-0">
                                             <select id="lada" name="lada" class="browser-default style-inp">
                                                 <option value="">Lada</option>
                                                 <option value="MX +52" selected>MX +52</option>
@@ -79,7 +79,7 @@
                     <input type="mail" id="mailRes" name="correo" class="style-inp validateRes" placeholder="Correo electrónico">
                 </div>
                 <div class="col-md-6 col-xs-12 mt-10">
-                    <div class="col-xs-4 pl-0">
+                    <div class="col-xs-4 pl-0 pr-0">
                         <select id="ladaRes" name="lada" class="browser-default style-inp">
                             <option value="">Lada</option>
                             <option value="MX +52" selected>MX +52</option>
@@ -117,7 +117,7 @@
             </div>
         </div>
         <div class="slider1 mt-20 d-mobile">
-            <div class="col-md-4"><img class="w-100" src="./assets/images/boni/categorias/Lujo@2x.png" alt=""></div>
+            <div class="col-md-4"><a href="home"><img class="w-100" src="./assets/images/boni/categorias/Lujo@2x.png" alt=""></a></div>
             <div class="col-md-4"><img class="w-100" src="./assets/images/boni/categorias/Premium@2x.png" alt=""></div>
             <div class="col-md-4"><img class="w-100" src="./assets/images/boni/categorias/Turista@2x.png" alt=""></div>
         </div>

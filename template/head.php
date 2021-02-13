@@ -56,7 +56,6 @@ src="https://www.facebook.com/tr?id=692494524741544&ev=PageView&noscript=1"
 
   gtag('config', 'UA-183491298-1');
 </script>
-<script src="https://boniviajes.com/assets/js/jquery-latest.min.js"></script>
 <script>
   // LADA
   $(function() {

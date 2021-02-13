@@ -36,7 +36,7 @@
                                         <input type="mail" id="mail" name="correo" class="style-inp validate" placeholder="Correo electrónico">
                                     </div>
                                     <div class="col-md-6 mt-10">
-                                        <div class="col-md-4 pl-0">
+                                        <div class="col-md-4 pl-0 pr-0">
                                             <select id="lada" name="lada" class="browser-default style-inp">
                                                 <option value="">Lada</option>
                                                 <option value="MX +52" selected>MX +52</option>
@@ -79,7 +79,7 @@
                     <input type="mail" id="mailRes" name="correo" class="style-inp validateRes" placeholder="Correo electrónico">
                 </div>
                 <div class="col-md-6 col-xs-12 mt-10">
-                    <div class="col-xs-4 pl-0">
+                    <div class="col-xs-4 pl-0 pr-0">
                         <select id="ladaRes" name="lada" class="browser-default style-inp">
                             <option value="">Lada</option>
                             <option value="MX +52" selected>MX +52</option>
@@ -97,7 +97,7 @@
                     <label class="form-check-label f-10 c-white" for="checkTerminosRes">He leído los <a href="terminos" target="_blank" class="c-gray f-10">Términos & Condiciones</a> y el <a href="aviso-priv" target="_blank" class="c-gray f-10">Aviso de privacidad</a></label>
                 </div>
                 <div class="col-md-12 col-xs-12 mt-15">
-                    <a href="thanks.php" id="enviarCorreoRes" class="btn col-md-12 col-xs-12 materialize-red white-text f-50 f-medium" style="text-transform: capitalize;" disabled>¡Llámame!</a>
+                    <a href="thanks" id="enviarCorreoRes" class="btn col-md-12 col-xs-12 materialize-red white-text f-50 f-medium" style="text-transform: capitalize;" disabled>¡Llámame!</a>
                 </div>
             </form>
         </div>
