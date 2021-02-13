@@ -3,6 +3,14 @@
 <head>
     <title>Boniviajes</title>
     <?php include_once('./template/head.php') ?>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-474455648"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-474455648');
+    </script>
 </head>
 <body>
     <?php include_once('./template/header.php') ?>
@@ -13,16 +21,16 @@
                     <div class="slider fullscreen" data-interval="false">
                         <ul class="slides">
                             <li>
-                                <img src="./assets/images/boni/Slides/boniviajes@2x.png" alt="inicio">
+                                <img src="./assets/images/boni/Slides/thegrand_mp_hotel@2x.png" alt="nobu">
                             </li>
                             <li>
-                                <img src="./assets/images/boni/Slides/nobu_loscabos@2x.png" alt="nobu">
+                                <img src="./assets/images/boni/Slides/2@2x.png" alt="nobu">
                             </li>
                             <li>
-                                <img src="./assets/images/boni/Slides/thegrand_mp_hotel@2x.png" alt="tgmp">
+                                <img src="./assets/images/boni/Slides/nobu_loscabos@2x.png" alt="tgmp">
                             </li>
                             <li>
-                                <img src="./assets/images/boni/Slides/azultalavera_hotel@2x.png" alt="azul">
+                                <img src="./assets/images/boni/Slides/4@2x.png" alt="tgmp">
                             </li>
                             <div class="col-md-6">
                                 <form class="row pos-form col-md-11">
@@ -52,7 +60,7 @@
                                     <div class="col-md-12 mt-10">
                                         <div class="form-group form-check">
                                             <input type="checkbox" class="form-check-input filled-in" id="checkTerminos">
-                                            <label class="form-check-label f-12 c-white" for="checkTerminos">He leído los <a href="terminos" target="_blank" class="c-gray f-12">Términos & Condiciones</a> y el <a href="aviso-priv" target="_blank" class="c-gray f-12">Aviso de privacidad</a></label>
+                                            <label class="form-check-label f-12 c-white" for="checkTerminos">He leído los <a href="terminos" target="_blank" class="c-white f-12">Términos & Condiciones</a> y el <a href="aviso-priv" target="_blank" class="c-white f-12">Aviso de privacidad</a></label>
                                         </div>
                                     </div>
                                     <div class="col-md-12 mt-10">
@@ -177,13 +185,13 @@
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12 mt-20-card">
                                 <div class="v_place_img">
-                                    <img src="./assets/images/boni/Hoteles de lujo/santisimatrinidad_hotel@2x.png" alt="Tour Booking" title="Tour Booking">
+                                    <img src="./assets/images/boni/Hoteles de lujo/eden_rock.jpg" alt="Tour Booking" title="Tour Booking">
                                 </div>
                                 <div class="b_pack rows pre-15">
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
-                                        <h4 class="text-uppercase f-medium f-res-20">Santísima Trinidad</h4>
+                                        <h4 class="text-uppercase f-medium f-res-20">Eden Roc Miami</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$5,400*<span class="fs-20">/Noche</span></p>
+                                        <p class="c-red fs-20">$4,579*<span class="fs-20">/Noche</span></p>
                                         <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                     </div>
@@ -203,7 +211,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 col-xs-12 mt-20-card">
+                            <!-- <div class="col-md-4 col-sm-6 col-xs-12 mt-20-card">
                                 <div class="v_place_img">
                                     <img src="./assets/images/boni/Hoteles de lujo/azultalavera-hotel@2x.png" alt="Tour Booking" title="Tour Booking">
                                 </div>
@@ -216,7 +224,7 @@
                                         <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -300,7 +308,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 col-xs-12 mt-20-card">
+                            <!-- <div class="col-md-4 col-sm-6 col-xs-12 mt-20-card">
                                 <div class="v_place_img">
                                     <img src="./assets/images/boni/Hoteles de lujo/grandvelasvallarta-hotel@2x.png" alt="Tour Booking" title="Tour Booking">
                                 </div>
@@ -313,7 +321,7 @@
                                         <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -387,7 +395,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 col-xs-12 mt-20-card">
+                            <!-- <div class="col-md-4 col-sm-6 col-xs-12 mt-20-card">
                                 <div class="v_place_img">
                                     <img src="./assets/images/boni/Hoteles de lujo/grandvelasvallarta-hotel@2x.png" alt="Tour Booking" title="Tour Booking">
                                 </div>
@@ -398,7 +406,7 @@
                                         <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <p class="f-book mt-15 fs-8 c-gray">*Aplican restricciones, términos y condiciones.Tarifas sujetas a disponibilidad y cambio sin previo aviso. Impuestos y cobros excluidos.</p>
                     </div>
@@ -406,7 +414,7 @@
             </section>
         </div>
         <aside class="col-md-10 col-lg-3 pl-0 form-desktop" style="margin-top: 100px">
-            <img class="w-100" src="./assets/images/gallery/s10.jpg" alt="img">
+            <a href="https://boniviajes.com/palace/"><img class="w-100" src="./assets/images/boni/Slides/V1@2x.png" alt="img"></a>
         </aside>
     </div>
     <?php include_once('./template/contact_buttons.php') ?>

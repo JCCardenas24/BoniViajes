@@ -3,6 +3,14 @@
 <head>
     <title>Boniviajes - Aviso de privacidad</title>
     <?php include_once('./template/head.php') ?>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-474455648"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-474455648');
+    </script>
 <body>
     <?php include_once('./template/header.php') ?>
 	<section class="mx-width">

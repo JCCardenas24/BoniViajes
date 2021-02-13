@@ -3,6 +3,14 @@
 <head>
     <title>Boniviajes</title>
     <?php include_once('./template/head.php') ?>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-474455648"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-474455648');
+    </script>
 </head>
 <body>
     <?php include_once('./template/header.php') ?>
@@ -13,13 +21,13 @@
                     <div class="slider fullscreen" data-interval="false">
                         <ul class="slides">
                             <li>
-                                <img src="./assets/images/boni/Slides/boniviajes@2x.png" alt="inicio">
+                                <img src="./assets/images/boni/Slides/Promo_Palace@2x.png" alt="inicio">
                             </li>
                             <li>
                                 <img src="./assets/images/boni/Slides/nobu_loscabos@2x.png" alt="nobu">
                             </li>
                             <li>
-                                <img src="./assets/images/boni/Slides/thegrand_mp_hotel@2x.png" alt="tgmp">
+                                <img src="./assets/images/boni/Slides/dreams_playamujeres@2x.png" alt="tgmp">
                             </li>
                             <li>
                                 <img src="./assets/images/boni/Slides/azultalavera_hotel@2x.png" alt="azul">
@@ -52,7 +60,7 @@
                                     <div class="col-md-12 mt-10">
                                         <div class="form-group form-check">
                                             <input type="checkbox" class="form-check-input filled-in" id="checkTerminos">
-                                            <label class="form-check-label f-12 c-white" for="checkTerminos">He leído los <a href="terminos" target="_blank" class="c-gray f-12">Términos & Condiciones</a> y el <a href="aviso-priv" target="_blank" class="c-gray f-12">Aviso de privacidad</a></label>
+                                            <label class="form-check-label f-12 c-white" for="checkTerminos">He leído los <a href="terminos" target="_blank" class="c-white f-12">Términos & Condiciones</a> y el <a href="aviso-priv" target="_blank" class="c-white f-12">Aviso de privacidad</a></label>
                                         </div>
                                     </div>
                                     <div class="col-md-12 mt-10">
@@ -94,7 +102,7 @@
                 </div>
                 <div class="col-md-12 col-xs-12 mt-15">
                     <input type="checkbox" class="checkbox-indigo filled-in" id="checkTerminosRes">
-                    <label class="form-check-label f-10 c-white" for="checkTerminosRes">He leído los <a href="terminos" target="_blank" class="c-gray f-10">Términos & Condiciones</a> y el <a href="aviso-priv" target="_blank" class="c-gray f-10">Aviso de privacidad</a></label>
+                    <label class="form-check-label f-10 c-gray" for="checkTerminosRes">He leído los <a href="terminos" target="_blank" class="c-gray f-10">Términos & Condiciones</a> y el <a href="aviso-priv" target="_blank" class="c-gray f-10">Aviso de privacidad</a></label>
                 </div>
                 <div class="col-md-12 col-xs-12 mt-15">
                     <a href="thanks" id="enviarCorreoRes" class="btn col-md-12 col-xs-12 materialize-red white-text f-50 f-medium" style="text-transform: capitalize;" disabled>¡Llámame!</a>
@@ -102,11 +110,12 @@
             </form>
         </div>
     </section>
-    <section id="banners">
+    <section id="banners" style="margin-top:20px !important">
         <div class="w-90 m-auto">
             <div class="col-md-12 mb-50">
-                <a href="home">
-                    <img class="w-100" src="./assets/images/gallery/s3.jpeg" alt="" height="200">
+                <a href="https://boniviajes.com/palace/">
+                    <img class="w-100 form-desktop" src="./assets/images/boni/Horizontal@2x.png" alt="" height="200">
+                    <img class="w-100 d-mobile" src="./assets/images/boni/horizontal_mobile@2x.png" alt="" height="">
                 </a>
             </div>
         </div>
@@ -165,13 +174,13 @@
                         </div>
                         <div class="w-20 col-sm-6 col-xs-12 mt-20-card">
                             <div class="v_place_img">
-                                <img src="./assets/images/boni/Hoteles de lujo/santisimatrinidad_hotel@2x.png" alt="Tour Booking" title="Tour Booking">
+                                <img src="./assets/images/boni/Hoteles de lujo/eden_rock.jpg" alt="Tour Booking" title="Tour Booking">
                             </div>
                             <div class="b_pack rows pre-15">
                                 <div class="col-md-12 col-sm-12 p-15">
-                                    <h4 class="text-uppercase f-medium f-res-20">Santísima Trinidad</h4>
-                                    <small class="c-red f-8">Desde</small>
-                                    <p class="c-red f-16">$5,400*<span class="fs-8">/Noche</span></p>
+                                    <h4 class="text-uppercase f-medium f-res-20">Eden Roc Miami</h4>
+                                    <small class="c-red f-15">Desde</small>
+                                    <p class="c-red f-16">$4,579*<span class="fs-8">/Noche</span></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                     <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                 </div>
@@ -239,7 +248,7 @@
                                 <div class="col-md-12 col-sm-12 p-15">
                                     <h4 class="mb-0 text-uppercase f-medium f-res-20">Dreams Playa Mujeres Golf Resort & Spa</h4>
                                     <small class="c-red f-8">Desde</small>
-                                    <p class="c-red f-16">$8,362*<span class="fs-8">/Persona</span></p>
+                                    <p class="c-red f-16">$8,959*<span class="fs-8">/Persona</span></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                     <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                 </div>
