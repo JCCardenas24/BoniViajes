@@ -72,7 +72,7 @@ src="https://www.facebook.com/tr?id=692494524741544&ev=PageView&noscript=1"
       _href = $(this).attr('href');
 
       event.preventDefault();
-      if('boniviajes.com' == location.host) {
+      if('boniviajes.com' == location.host || 'qaboniviajes.boniviajes.com' == location.host) {
         _url = "/assets/save.php";
       } else {
         _url = "/BoniViajes/assets/save.php";
