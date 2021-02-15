@@ -23,7 +23,8 @@ $database->insert('web', [
   'email' => $post['correo'],
   'telefono' => $post['phone1'],
   'destino' => $post['destino'],
-  'lada' => $post['lada']
+  'lada' => $post['lada'],
+  'origen' => $post['origen']
 ]);
 
 // Registro en Hubspot
@@ -48,6 +49,10 @@ $arr = array(
         array(
             'property' => 'lada',
             'value' => $post['lada']
+        ),
+        array(
+            'property' => 'origen',
+            'value' => $post['origen']
         )
     )
 );

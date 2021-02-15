@@ -459,7 +459,7 @@
           } else {
             _url = "/BoniViajes/assets/save.php";
           }
-          _data = _form.serialize();
+          _data = _form.serialize() + '&origen=Home principal';
           $.post(_url, _data, function() {
 
           }).done(function() {
