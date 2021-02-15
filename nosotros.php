@@ -12,7 +12,9 @@
 
         gtag('config', 'AW-474455648');
     </script>
-<body>
+</head>
+
+<body class="mx-width">
     <?php include_once('./template/header.php') ?>
     <section class="mx-width">
         <div class="rows inner_banner bg_nosotros">

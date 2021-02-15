@@ -12,7 +12,7 @@
         gtag('config', 'AW-474455648');
     </script>
 </head>
-<body>
+<body class="mx-width">
     <?php include_once('./template/header.php') ?>
     <section id="main" class="form-desktop">
         <div>
@@ -21,17 +21,15 @@
                     <div class="slider fullscreen" data-interval="false">
                         <ul class="slides">
                             <li>
-                                <img src="./assets/images/boni/Slides/Promo_Palace@2x.png" alt="inicio">
+                                <img src="./assets/images/boni/Slides/new_palace.png" alt="inicio">
                             </li>
                             <li>
-                                <img src="./assets/images/boni/Slides/nobu_loscabos@2x.png" alt="nobu">
+                                <img src="./assets/images/boni/Slides/cozumel.png" alt="nobu">
                             </li>
                             <li>
-                                <img src="./assets/images/boni/Slides/dreams_playamujeres@2x.png" alt="tgmp">
+                                <img src="./assets/images/boni/Slides/hardrock.png" alt="tgmp">
                             </li>
-                            <li>
-                                <img src="./assets/images/boni/Slides/azultalavera_hotel@2x.png" alt="azul">
-                            </li>
+                            
                             <div class="col-md-6">
                                 <form class="row pos-form col-md-11">
                                     <div class="col-md-12">
@@ -114,7 +112,7 @@
         <div class="w-90 m-auto">
             <div class="col-md-12 mb-50">
                 <a href="https://boniviajes.com/palace/">
-                    <img class="w-100 form-desktop" src="./assets/images/boni/Horizontal@2x.png" alt="" height="200">
+                    <img class="w-100 form-desktop" src="./assets/images/boni/Horizontal@2x.png" alt="">
                     <img class="w-100 d-mobile" src="./assets/images/boni/horizontal_mobile@2x.png" alt="" height="">
                 </a>
             </div>

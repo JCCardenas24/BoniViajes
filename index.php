@@ -12,7 +12,7 @@
         gtag('config', 'AW-474455648');
     </script>
 </head>
-<body>
+<body class="mx-width">
     <?php include_once('./template/header.php') ?>
     <section id="main" class="form-desktop">
         <div>

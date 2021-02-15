@@ -419,8 +419,8 @@ input::placeholder {
 
 .slider .indicators .indicator-item.active {
     background-color: #4D4D4D;
-    height: 14px;
-    width: 14px;
+    height: 10px;
+    width: 10px;
     border: 1px solid #4D4D4D;
 }
 
@@ -428,9 +428,9 @@ input::placeholder {
     display: inline-block;
     position: relative;
     cursor: pointer;
-    height: 12px;
-    width: 12px;
-    margin: 0 15px;
+    height: 10px;
+    width: 10px;
+    margin: 0 6px;
     background-color: #fff;
     transition: background-color .3s;
     border-radius: 50%;
@@ -726,4 +726,8 @@ body{
 
 .col-25{
     width: 25%;
+}
+
+.reset_margin{
+    /* margin: 15px 0 0 0 !important; */
 }
