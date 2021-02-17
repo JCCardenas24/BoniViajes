@@ -24,13 +24,13 @@
                                 <img src="./assets/images/boni/Slides/thegrand_mp_hotel@2x.png" alt="nobu">
                             </li>
                             <li>
-                                <img src="./assets/images/boni/Slides/2@2x.png" alt="nobu">
+                                <img src="./assets/images/boni/Slides/grandvelas_loscabos@2x.png" alt="nobu">
                             </li>
                             <li>
                                 <img src="./assets/images/boni/Slides/nobu_loscabos@2x.png" alt="tgmp">
                             </li>
                             <li>
-                                <img src="./assets/images/boni/Slides/4@2x.png" alt="tgmp">
+                                <img src="./assets/images/boni/Slides/Secrets_Bahia_Mita_Surf___SPA_hotel@2x.png" alt="tgmp">
                             </li>
                             <div class="col-md-6">
                                 <form class="row pos-form col-md-11">
@@ -149,7 +149,7 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">Nobu Hotel Los Cabos</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$7,924*<span class="fs-20">/Noche</span></p>
+                                        <p class="c-red fs-20">$8,231*<span class="fs-20">/Noche</span></p>
                                         <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                     </div>
@@ -163,7 +163,7 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20 text-center">Grand Velas Los Cabos</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$26,291*<span class="fs-20">/Noche</span></p>
+                                        <p class="c-red fs-20">$24,152*<span class="fs-20">/Noche</span></p>
                                         <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                     </div>
@@ -185,13 +185,13 @@
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12 mt-20-card">
                                 <div class="v_place_img">
-                                    <img src="./assets/images/boni/Hoteles de lujo/eden_rock.jpg" alt="Tour Booking" title="Tour Booking">
+                                    <img src="./assets/images/boni/Hoteles de lujo/screts_bahia_mita_card@2x.png" alt="Tour Booking" title="Tour Booking">
                                 </div>
                                 <div class="b_pack rows pre-15">
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
-                                        <h4 class="text-uppercase f-medium f-res-20">Eden Roc Miami</h4>
+                                        <h4 class="text-uppercase f-medium f-res-20">Secrets Bahia Mita Surf & SPA</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$4,579*<span class="fs-20">/Noche</span></p>
+                                        <p class="c-red fs-20">$6,520*<span class="fs-20">/Noche</span></p>
                                         <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                     </div>
@@ -205,26 +205,12 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">Azul Talavera</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$4,803*<span class="fs-20">/Noche</span></p>
+                                        <p class="c-red fs-20">$4,811*<span class="fs-20">/Noche</span></p>
                                         <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="col-md-4 col-sm-6 col-xs-12 mt-20-card">
-                                <div class="v_place_img">
-                                    <img src="./assets/images/boni/Hoteles de lujo/azultalavera-hotel@2x.png" alt="Tour Booking" title="Tour Booking">
-                                </div>
-                                <div class="b_pack rows pre-15">
-                                    <div class="col-md-12 col-sm-12 p-15 text-center">
-                                        <h4 class="text-uppercase f-medium f-res-20">Azul Talavera</h4>
-                                        <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$4,803*<span class="fs-20">/Noche</span></p>
-                                        <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
-                                        <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
-                                    </div>
-                                </div>
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -246,7 +232,7 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">The Grand Moon Palace </h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$14,090*<span class="fs-20">/Persona</span></p>
+                                        <p class="c-red fs-20">$11,533*<span class="fs-20">/Persona</span></p>
                                         <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                     </div>
@@ -254,13 +240,13 @@
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12 mt-20-card">
                                 <div class="v_place_img">
-                                    <img src="./assets/images/boni/Hoteles de lujo/hardrock-hotel@2x.png" alt="Tour Booking" title="Tour Booking">
+                                    <img src="./assets/images/boni/Hoteles de lujo/HRH-cancun@2x.png" alt="Tour Booking" title="Tour Booking">
                                 </div>
                                 <div class="b_pack rows pre-15">
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">Hard Rock Hotel Cancun</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$9,067*<span class="fs-20">/Persona</span></p>
+                                        <p class="c-red fs-20">$9,513*<span class="fs-20">/Persona</span></p>
                                         <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                     </div>
@@ -274,7 +260,7 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">Dreams Playa Mujeres Golf Resort</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$8,362*<span class="fs-20">/Persona</span></p>
+                                        <p class="c-red fs-20">$8,446*<span class="fs-20">/Persona</span></p>
                                         <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                     </div>
@@ -288,7 +274,7 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">UNICO 20ºN 87ºW</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$11,765*<span class="fs-20">/Persona</span></p>
+                                        <p class="c-red fs-20">$11,366*<span class="fs-20">/Persona</span></p>
                                         <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                     </div>
@@ -302,26 +288,26 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">GRAND VELAS RIVIERA NAYARIT</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$17,868*<span class="fs-20">/Persona</span></p>
+                                        <p class="c-red fs-20">$17,761*<span class="fs-20">/Persona</span></p>
                                         <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="col-md-4 col-sm-6 col-xs-12 mt-20-card">
+                            <div class="col-md-4 col-sm-6 col-xs-12 mt-20-card">
                                 <div class="v_place_img">
-                                    <img src="./assets/images/boni/Hoteles de lujo/grandvelasvallarta-hotel@2x.png" alt="Tour Booking" title="Tour Booking">
+                                    <img src="./assets/images/boni/Hoteles de lujo/drems_huatulco_card@2x.png" alt="Tour Booking" title="Tour Booking">
                                 </div>
                                 <div class="b_pack rows pre-15">
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
-                                        <h4 class="text-uppercase f-medium f-res-20">GRAND VELAS RIVIERA NAYARIT</h4>
+                                        <h4 class="text-uppercase f-medium f-res-20">Dreams Huacutlco</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$17,868*<span class="fs-20">/Persona</span></p>
+                                        <p class="c-red fs-20">$5,403*<span class="fs-20">/Persona</span></p>
                                         <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -349,7 +335,7 @@
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12 mt-20-card">
                                 <div class="v_place_img">
-                                    <img src="./assets/images/boni/Hoteles de lujo/hardrock-hotel@2x.png" alt="Tour Booking" title="Tour Booking">
+                                    <img src="./assets/images/boni/Hoteles de lujo/HRH-cancun@2x.png" alt="Tour Booking" title="Tour Booking">
                                 </div>
                                 <div class="b_pack rows pre-15">
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
