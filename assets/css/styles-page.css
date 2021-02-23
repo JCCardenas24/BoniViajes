@@ -470,6 +470,7 @@ input::placeholder {
     font-size: 13px;
     text-transform: uppercase;
     margin: 15px 0;
+    height: 28px;
 }
 
 .b_pack{

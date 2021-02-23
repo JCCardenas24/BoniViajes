@@ -113,7 +113,7 @@
             <div class="col-md-12 mb-50">
                 <a href="https://boniviajes.com/palace/">
                     <img class="w-100 form-desktop" src="./assets/images/boni/Horizontal@2x.png" alt="">
-                    <img class="w-100 d-mobile" src="./assets/images/boni/horizontal_mobile@2x.png" alt="" height="">
+                    <img class="w-100 d-mobile" src="./assets/images/boni/Horizontal_mobile@2x.png" alt="" height="">
                 </a>
             </div>
         </div>
@@ -148,7 +148,7 @@
                             </div>
                             <div class="b_pack rows pre-15">
                                 <div class="col-md-12 col-sm-12 p-15">
-                                    <h4 class="mb-0 text-uppercase f-medium f-res-20">Grand Velas Los Cabos</h4>
+                                    <h4 class=" text-uppercase f-medium f-res-20">Grand Velas Los Cabos</h4>
                                     <small class="c-red f-8">Desde</small>
                                     <p class="c-red f-16">$27,496*<span class="fs-8">/Noche</span></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
@@ -162,7 +162,7 @@
                             </div>
                             <div class="b_pack rows pre-15">
                                 <div class="col-md-12 col-sm-12 p-15">
-                                    <h4 class="mb-0 text-uppercase f-medium f-res-20">Rosewood San Miguel Allende</h4>
+                                    <h4 class=" text-uppercase f-medium f-res-20">Rosewood San Miguel Allende</h4>
                                     <small class="c-red f-8">Desde</small>
                                     <p class="c-red f-16">$9,000*<span class="fs-8">/Noche</span></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
@@ -176,7 +176,7 @@
                             </div>
                             <div class="b_pack rows pre-15">
                                 <div class="col-md-12 col-sm-12 p-15">
-                                    <h4 class="mb-0 text-uppercase f-medium f-res-20">Secrets Bahia Mita Surf & SPA</h4>
+                                    <h4 class=" text-uppercase f-medium f-res-20">Secrets Bahia Mita Surf & SPA</h4>
                                     <small class="c-red f-15">Desde</small>
                                     <p class="c-red f-16">$6,316*<span class="fs-8">/Noche</span></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
@@ -230,7 +230,7 @@
                             </div>
                             <div class="b_pack rows pre-15">
                                 <div class="col-md-12 col-sm-12 p-15">
-                                    <h4 class="mb-0 text-uppercase f-medium f-res-20">Hard Rock Hotel Cancun</h4>
+                                    <h4 class=" text-uppercase f-medium f-res-20">Hard Rock Hotel Cancun</h4>
                                     <small class="c-red f-8">Desde</small>
                                     <p class="c-red f-16">$9,058*<span class="fs-8">/Persona</span></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
@@ -244,7 +244,7 @@
                             </div>
                             <div class="b_pack rows pre-15">
                                 <div class="col-md-12 col-sm-12 p-15">
-                                    <h4 class="mb-0 text-uppercase f-medium f-res-20">Dreams Playa Mujeres Golf Resort & Spa</h4>
+                                    <h4 class=" text-uppercase f-medium f-res-20">Dreams Playa Mujeres Golf Resort & Spa</h4>
                                     <small class="c-red f-8">Desde</small>
                                     <p class="c-red f-16">$6,080*<span class="fs-8">/Persona</span></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
@@ -272,7 +272,7 @@
                             </div>
                             <div class="b_pack rows pre-15">
                                 <div class="col-md-12 col-sm-12 p-15">
-                                    <h4 class="mb-0 text-uppercase f-medium f-res-20">GRAND VELAS RIVIERA NAYARIT</h4>
+                                    <h4 class=" text-uppercase f-medium f-res-20">GRAND VELAS RIVIERA NAYARIT</h4>
                                     <small class="c-red f-8">Desde</small>
                                     <p class="c-red f-16">$17,626*<span class="fs-8">/Persona</span></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
@@ -299,7 +299,7 @@
                             </div>
                             <div class="b_pack rows pre-15">
                                 <div class="col-md-12 col-sm-12 p-15">
-                                    <h4 class="mb-0 text-uppercase f-medium f-res-20">Los Cabos</h4>
+                                    <h4 class="text-uppercase f-medium f-res-20">Los Cabos</h4>
                                     <small class="c-red f-8"></small>
                                     <p class="c-red f-16"></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
@@ -313,7 +313,7 @@
                             </div>
                             <div class="b_pack rows pre-15">
                                 <div class="col-md-12 col-sm-12 p-15">
-                                    <h4 class="mb-0 text-uppercase f-medium f-res-20">Cancún</h4>
+                                    <h4 class="text-uppercase f-medium f-res-20">Cancún</h4>
                                     <small class="c-red f-8"></small>
                                     <p class="c-red f-16"></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
@@ -327,7 +327,7 @@
                             </div>
                             <div class="b_pack rows pre-15">
                                 <div class="col-md-12 col-sm-12 p-15">
-                                    <h4 class="mb-0 text-uppercase f-medium f-res-20">San miguel</h4>
+                                    <h4 class=" text-uppercase f-medium f-res-20">San miguel</h4>
                                     <small class="c-red f-8"></small>
                                     <p class="c-red f-16"></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
@@ -341,7 +341,7 @@
                             </div>
                             <div class="b_pack rows pre-15">
                                 <div class="col-md-12 col-sm-12 p-15">
-                                    <h4 class="mb-0 text-uppercase f-medium f-res-20">puebla</h4>
+                                    <h4 class=" text-uppercase f-medium f-res-20">puebla</h4>
                                     <small class="c-red f-8"></small>
                                     <p class="c-red f-16"></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
@@ -355,7 +355,7 @@
                             </div>
                             <div class="b_pack rows pre-15">
                                 <div class="col-md-12 col-sm-12 p-15">
-                                    <h4 class="mb-0 text-uppercase f-medium f-res-20">puerto vallarta</h4>
+                                    <h4 class="text-uppercase f-medium f-res-20">puerto vallarta</h4>
                                     <small class="c-red f-8"></small>
                                     <p class="c-red f-16"></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
