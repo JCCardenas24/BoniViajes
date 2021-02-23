@@ -27,7 +27,7 @@
                                 <img src="./assets/images/boni/Slides/cozumel.png" alt="nobu">
                             </li>
                             <li>
-                                <img src="./assets/images/boni/Slides/hardrock.png" alt="tgmp">
+                                <img src="./assets/images/boni/Slides/hr_28.png" alt="tgmp">
                             </li>
                             
                             <div class="col-md-6">
@@ -218,7 +218,7 @@
                                 <div class="col-md-12 col-sm-12 p-15">
                                     <h4 class="text-uppercase f-medium f-res-20">The Grand Moon Palace </h4>
                                     <small class="c-red f-8">Desde</small>
-                                    <p class="c-red f-16">$14,090*<span class="fs-8">/Persona</span></p>
+                                    <p class="c-red f-16">$14,222*<span class="fs-8">/Persona</span></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                     <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                 </div>
@@ -232,7 +232,7 @@
                                 <div class="col-md-12 col-sm-12 p-15">
                                     <h4 class="mb-0 text-uppercase f-medium f-res-20">Hard Rock Hotel Cancun</h4>
                                     <small class="c-red f-8">Desde</small>
-                                    <p class="c-red f-16">$9,067*<span class="fs-8">/Persona</span></p>
+                                    <p class="c-red f-16">$9,058*<span class="fs-8">/Persona</span></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                     <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                 </div>
@@ -246,7 +246,7 @@
                                 <div class="col-md-12 col-sm-12 p-15">
                                     <h4 class="mb-0 text-uppercase f-medium f-res-20">Dreams Playa Mujeres Golf Resort & Spa</h4>
                                     <small class="c-red f-8">Desde</small>
-                                    <p class="c-red f-16">$8,959*<span class="fs-8">/Persona</span></p>
+                                    <p class="c-red f-16">$6,080*<span class="fs-8">/Persona</span></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                     <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                 </div>
@@ -260,7 +260,7 @@
                                 <div class="col-md-12 col-sm-12 p-15">
                                     <h4 class="text-uppercase f-medium f-res-20">UNICO 20ºN 87ºW</h4>
                                     <small class="c-red f-8">Desde</small>
-                                    <p class="c-red f-16">$11,765*<span class="fs-8">/Persona</span></p>
+                                    <p class="c-red f-16">$10,368*<span class="fs-8">/Persona</span></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                     <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                 </div>
@@ -274,7 +274,7 @@
                                 <div class="col-md-12 col-sm-12 p-15">
                                     <h4 class="mb-0 text-uppercase f-medium f-res-20">GRAND VELAS RIVIERA NAYARIT</h4>
                                     <small class="c-red f-8">Desde</small>
-                                    <p class="c-red f-16">$17,868*<span class="fs-8">/Persona</span></p>
+                                    <p class="c-red f-16">$17,626*<span class="fs-8">/Persona</span></p>
                                     <a href="#main" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                     <a href="#formRes" class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 d-mobile">Llámame</a>
                                 </div>
