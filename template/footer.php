@@ -6,7 +6,9 @@
                     <div class="p-15">
                         <div class="row d-flex">
                             <div class="col-25 foot-spec foot-com">
-                                <a href="http://rnt.sectur.gob.mx/Grd_TurGenerales/?Id_TiposPST=4" target="_blank"><img src="./assets/images/boni/registro.png" alt="registro"></a>
+                                <a href="http://rnt.sectur.gob.mx/Grd_TurGenerales/?Id_TiposPST=4" target="_blank">
+                                <img id="registro_img" src="./assets/images/boni/registro.png" alt="registro">
+                            </a>
                             </div>
                             <div class="col-25 foot-spec foot-com">
                                 <h4 class="f-book">Acerca de Boniviajes</h4>
