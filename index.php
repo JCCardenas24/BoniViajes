@@ -149,11 +149,13 @@
     </section> -->
     <div id="contacto_form" class="main_slider cd">
         <div class=" slider4 slider-ss">
-            <div class="slider_bg" style="background-image: url('assets/images/boni/mp_22.png');">
+            <div class="slider_bg" style="background-image: url('assets/images/campaing/1.png');">
             </div>
-            <div class="slider_bg" style="background-image: url('assets/images/boni/gvlc_22.png');">
+            <div class="slider_bg" style="background-image: url('assets/images/campaing/2.png');">
             </div>
-            <div class="slider_bg" style="background-image: url('assets/images/boni/nobu_22.png');">
+            <div class="slider_bg" style="background-image: url('assets/images/campaing/3.png');">
+            </div>
+            <div class="slider_bg" style="background-image: url('assets/images/campaing/4.png');">
             </div>
         </div>
         <div class="form_wrapper_">
