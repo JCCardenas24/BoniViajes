@@ -395,7 +395,7 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">UNICO 20ºN 87ºW</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$10,368*<span class="fs-20">/Persona</span></p>
+                                        <p class="c-red fs-20">$10,459*<span class="fs-20">/Persona</span></p>
                                         <a href="#contacto_form"
                                             class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#contacto_form"
