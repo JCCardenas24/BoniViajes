@@ -225,7 +225,7 @@
         </div>
     </section>
     <div class="row w-80 m-auto">
-        <div class="col-md-10 col-lg-9">
+        <div class="col-md-12 col-lg-12">
             <section id="hoteles">
                 <div class="row mt-20">
                     <div class="container">
@@ -533,10 +533,10 @@
                 </div>
             </section>
         </div>
-        <aside id="banner_vertical" class="col-md-10 col-lg-3 pl-0 form-desktop" style="margin-top: 100px">
+        <!-- <aside id="banner_vertical" class="col-md-10 col-lg-3 pl-0 form-desktop" style="margin-top: 100px">
             <a href="https://boniviajes.com/palace/"><img class="w-100" src="./assets/images/boni/Slides/V1@2x.png"
                     alt="img"></a>
-        </aside>
+        </aside> -->
     </div>
     <?php include_once('./template/contact_buttons.php') ?>
     <?php include_once('./template/footer.php') ?>
