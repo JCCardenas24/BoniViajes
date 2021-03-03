@@ -378,7 +378,7 @@
                                         <h4 class="text-uppercase f-medium f-res-20">Dreams Playa Mujeres Golf Resort
                                         </h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$6,080*<span class="fs-20">/Persona</span></p>
+                                        <p class="c-red fs-20">$8,925*<span class="fs-20">/Persona</span></p>
                                         <a href="#contacto_form"
                                             class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#contacto_form"
