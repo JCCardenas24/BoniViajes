@@ -41,7 +41,10 @@ $database->insert('web', [
   'nombre' => $post['nCompleto'],
   'email' => $post['correo'],
   'telefono' => $post['phone1'],
-  'destino' => $post['destino']
+  'destino' => $post['destino'],
+  'check_in' => @$post['daterange'],
+  'adultos' => @$post['input_adults_number'],
+  'ninos' => @$post['input_kids_number']
 ]);
 
 // Registro en Hubspot
@@ -63,6 +66,18 @@ $arr = array(
             'property' => 'message',
             'value' => $post['destino']
         ),
+        array(
+          'property' => 'check_in___check_out',
+          'value' => $post['daterange']
+        ),
+        array(
+            'property' => 'numero_de_adultos',
+            'value' => @$post['input_adults_number']
+        ),
+        array(
+            'property' => 'numero_de_ninos',
+            'value' =>  @$post['input_kids_number']
+        )
     )
 );
 
