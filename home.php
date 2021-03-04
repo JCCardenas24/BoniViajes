@@ -394,6 +394,39 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment-with-locales.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+        // LADA
+        $(function () {
+            _url =
+                "https://gist.githubusercontent.com/Goles/3196253/raw/9ca4e7e62ea5ad935bb3580dc0a07d9df033b451/CountryCodes.json";
+            $.get(_url, function (data) {
+                $.each(data, function (index, item) {
+                    $('#lada, #ladaRes').append('<option value="' + item.code + ' ' + item
+                        .dial_code + '">' + item.code + ' ' + item.dial_code + '</option>');
+                })
+            }, 'json');
+
+            // Thank you pages
+            $('#enviarCorreo, #enviarCorreoRes').on('click', function (event) {
+                _form = $(this).closest('form');
+                _href = $(this).attr('href');
+
+                event.preventDefault();
+                if ('boniviajes.com' == location.host || 'qaboniviajes.boniviajes.com' == location
+                    .host) {
+                    _url = "/assets/save.php";
+                } else {
+                    _url = "/BoniViajes/assets/save.php";
+                }
+                _data = _form.serialize() + '&origen=Home viajes de lujo';
+                $.post(_url, _data, function () {
+
+                }).done(function () {
+                    location.href = _href;
+                });
+            });
+        })
+    </script>
 </body>
 
 </html>
