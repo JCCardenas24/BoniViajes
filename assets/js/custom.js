@@ -209,3 +209,138 @@ $(function() {
     }
 	}
 });
+
+
+// Data ranger picker
+
+$(document).ready(function () {
+    moment.locale('es');
+    $('input[name="daterange"]').daterangepicker({
+        "locale": {
+            "applyLabel": "Aplicar",
+            "cancelLabel": "Cancelar",
+        },
+        opens: 'left'
+    }, function (start, end, label) {
+        console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' +
+            end.format('YYYY-MM-DD'));
+    });
+    $('input[name="daterange"]').val('');
+    $('input[name="daterange"]').attr("placeholder", "Check In - Check Out");
+});
+
+//New Slider
+var numSlick = 0;
+$('.slider1').each(function () {
+    numSlick++;
+    $(this).addClass('slider-ss-' + numSlick).slick({
+
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: true,
+        asNavFor: '.slider1.slider-ss-' + numSlick,
+        responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    arrows: false,
+                }
+            },
+
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    arrows: false,
+                    centerMode: false
+                }
+            }
+        ]
+
+    });
+});
+
+numSlick = 0;
+$('.slider2').each(function () {
+    numSlick++;
+    $(this).addClass('slider-ss-' + numSlick).slick({
+        centerMode: true,
+        asNavFor: '.slider2.slider-ss-' + numSlick,
+        arrows: true,
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true
+                }
+            },
+
+            {
+                breakpoint: 767,
+                settings: {
+                    centerMode: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                }
+            }
+        ]
+    });
+});
+
+numSlick = 0;
+$('.slider3').each(function () {
+    numSlick++;
+    $(this).addClass('slider-ss-' + numSlick).slick({
+        asNavFor: '.slider3.slider-ss-' + numSlick,
+        arrows: true,
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    arrows: false,
+                    infinite: true,
+                    dots: true
+                }
+            },
+
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                }
+            }
+        ]
+    });
+});
+
+numSlick = 0;
+$('.slider4').each(function () {
+    numSlick++;
+    $(this).addClass('slider-ss-' + numSlick).slick({
+        asNavFor: '.slider4.slider-ss-' + numSlick,
+        arrows: false,
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+});
