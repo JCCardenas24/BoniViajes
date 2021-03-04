@@ -53,6 +53,18 @@ $arr = array(
         array(
             'property' => 'origen',
             'value' => $post['origen']
+        ),
+        array(
+            'property' => 'check_in___check_out',
+            'value' => $post['daterange']
+        ),
+        array(
+            'property' => 'numero_de_adultos',
+            'value' => @$post['input_adults_number']
+        ),
+        array(
+            'property' => 'numero_de_ninos',
+            'value' =>  @$post['input_kids_number']
         )
     )
 );
