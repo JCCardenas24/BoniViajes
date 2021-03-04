@@ -24,7 +24,10 @@ $database->insert('web', [
   'telefono' => $post['phone1'],
   'destino' => $post['destino'],
   'lada' => $post['lada'],
-  'origen' => $post['origen']
+  'origen' => $post['origen'],
+  'check_in' => @$post['daterange'],
+  'adultos' => @$post['input_adults_number'],
+  'ninos' => @$post['input_kids_number']
 ]);
 
 // Registro en Hubspot
