@@ -63,9 +63,9 @@
             <div class="slider_bg" style="background-image: url('assets/images/boni/Slides/hr_28.png');">
             </div>
         </div>
-       
+
         <?php include_once('./template/form.php') ?>
-        
+
     </div>
     <section id="banners">
         <div class="w-90 m-auto">
@@ -384,7 +384,8 @@
     <script src="./assets/js/materialize.min.js"></script>
     <script src="./assets/js/custom.js"></script>
     <script src="./assets/js/function.min.js"></script>
-    <script src="./assets/js/form-responsive.js"></script>
+    <!-- <script src="./assets/js/form-responsive.js"></script> -->
+    <script src="./assets/js/form.min.js"></script>
     <script>
         $('.indicators').css('z-index', '0');
     </script>
@@ -392,7 +393,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment-with-locales.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-    <script src="assets/js/custom.js"></script>    
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>

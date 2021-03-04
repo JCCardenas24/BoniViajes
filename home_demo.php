@@ -65,7 +65,7 @@
                             <li>
                                 <img src="./assets/images/boni/Slides/hr_28.png" alt="tgmp">
                             </li>
-                            
+
                             <div class="col-md-6">
                                 <form class="row pos-form col-md-11">
                                     <div class="col-md-12">
@@ -529,7 +529,7 @@
     <script src="./assets/js/custom.js"></script>
     <script src="./assets/js/function.min.js"></script>
     <script src="./assets/js/form.min.js"></script>
-    <script src="./assets/js/form-responsive.js"></script>
+    <!-- <script src="./assets/js/form-responsive.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
     <script>
         var numSlick = 0;
