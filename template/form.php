@@ -10,7 +10,7 @@
         <div class="col-md-6 mt-10">
             <input type="mail" id="mail" name="correo" class="style-inp validate" placeholder="Correo electrónico">
         </div>
-        <div class="col-md-6 col-xs-12 mt-10">
+        <div class="col-md-6 col-xs-12 mt-10 " id="wrapper_tel">
             <div class="col-xs-4 pl-0 pr-0">
                 <select id="lada" name="lada" class="browser-default style-inp">
                     <option value="">Lada</option>
@@ -31,10 +31,10 @@
                 <input id="date_range" type="text" name="daterange" value="03/01/2021 - 03/01/2022" />
             </div>
             <div class="col-sm-6 col-md-6 wrapper_dates_travel">
-                <div class="form-group col-md-6">
+                <div class="form-group col-sm-6 col-md-6">
                     <input type="number" placeholder="Adultos" id="input_adults_number" name="input_adults_number" class="form-control" min="1" />
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-sm-6 col-md-6">
                     <input type="number" placeholder="Niños" id="input_kids_number" name="input_kids_number" class="form-control" min="0" />
                 </div>
             </div>
