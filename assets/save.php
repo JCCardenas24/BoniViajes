@@ -46,10 +46,6 @@ $arr = array(
           'value' => $post['phone1']
         ),
         array(
-            'property' => 'message',
-            'value' => $post['destino']
-        ),
-        array(
             'property' => 'a_donde_quieres_viajar_',
             'value' => $post['destino']
         ),
