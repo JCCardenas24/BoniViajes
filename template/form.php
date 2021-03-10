@@ -28,7 +28,7 @@
         </div>
         <div class="col-md-12 mt-10 wrapper_dates_travel">
             <div class="col-sm-6 col-md-6">
-                <input id="date_range" type="text" name="daterange" value="03/01/2021 - 03/01/2022" />
+                <input class="style-inp" id="date_range" type="text" name="daterange" value=" " />
             </div>
             <div class="col-sm-6 col-md-6 wrapper_dates_travel">
                 <div class="form-group col-sm-6 col-md-6">
