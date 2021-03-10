@@ -32,10 +32,33 @@
             </div>
             <div class="col-sm-6 col-md-6 wrapper_dates_travel">
                 <div class="form-group col-sm-6 col-md-6">
-                    <input type="number" placeholder="Adultos" id="input_adults_number" name="input_adults_number" class="form-control" min="1" />
+                    <select id="input_adults_number" name="input_adults_number" class="browser-default style-inp">
+                        <option value="0" selected disabled>Adultos</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="+9">+9</option>
+                    </select>
                 </div>
                 <div class="form-group col-sm-6 col-md-6">
-                    <input type="number" placeholder="Niños" id="input_kids_number" name="input_kids_number" class="form-control" min="0" />
+                    <select id="input_kids_number" name="input_kids_number" class="browser-default style-inp">
+                        <option value="0" selected disabled>Niños</option>
+                        <option value="1">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="+9">+9</option>
+                    </select>
                 </div>
             </div>
         </div>
