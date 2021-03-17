@@ -201,7 +201,7 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">Nobu Hotel Los Cabos</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$15,280*<span class="fs-20">/Noche</span></p>
+                                        <p class="c-red fs-20">$11,995*<span class="fs-20">/Noche</span></p>
                                         <a href="#contacto_form"
                                             class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#contacto_form"
@@ -219,7 +219,7 @@
                                         <h4 class="text-uppercase f-medium f-res-20 text-center">Grand Velas Los Cabos
                                         </h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$30,513*<span class="fs-20">/Noche</span></p>
+                                        <p class="c-red fs-20">$26,978*<span class="fs-20">/Noche</span></p>
                                         <a href="#contacto_form"
                                             class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#contacto_form"
@@ -236,7 +236,7 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">Rosewood San Miguel Allende</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$9,000*<span class="fs-20">/Noche</span></p>
+                                        <p class="c-red fs-20">$15,883*<span class="fs-20">/Noche</span></p>
                                         <a href="#contacto_form"
                                             class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#contacto_form"
@@ -253,7 +253,7 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">Secrets Bahia Mita Surf & SPA</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$5,549*<span class="fs-20">/Noche</span></p>
+                                        <p class="c-red fs-20">$6,381*<span class="fs-20">/Noche</span></p>
                                         <a href="#contacto_form"
                                             class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#contacto_form"
@@ -270,7 +270,7 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">Azul Talavera</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$5,280*<span class="fs-20">/Noche</span></p>
+                                        <p class="c-red fs-20">$5,179*<span class="fs-20">/Noche</span></p>
                                         <a href="#contacto_form"
                                             class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#contacto_form"
@@ -298,9 +298,9 @@
                                 </div>
                                 <div class="b_pack rows pre-15">
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
-                                        <h4 class="text-uppercase f-medium f-res-20">The Grand Moon Palace </h4>
+                                        <h4 class="text-uppercase f-medium f-res-20">The Grand at Moon Palace </h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$14,592*<span class="fs-20">/Persona</span></p>
+                                        <p class="c-red fs-20">$12,645*<span class="fs-20">/Persona</span></p>
                                         <a href="#contacto_form"
                                             class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#contacto_form"
@@ -317,7 +317,7 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">Hard Rock Hotel Cancun</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$10,530*<span class="fs-20">/Persona</span></p>
+                                        <p class="c-red fs-20">$15,533*<span class="fs-20">/Persona</span></p>
                                         <a href="#contacto_form"
                                             class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#contacto_form"
@@ -332,10 +332,10 @@
                                 </div>
                                 <div class="b_pack rows pre-15">
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
-                                        <h4 class="text-uppercase f-medium f-res-20">Dreams Playa Mujeres Golf Resort
+                                        <h4 class="text-uppercase f-medium f-res-20">Dreams Playa Mujeres Golf, Resort & Spa
                                         </h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$10,271*<span class="fs-20">/Persona</span></p>
+                                        <p class="c-red fs-20">$7,826*<span class="fs-20">/Persona</span></p>
                                         <a href="#contacto_form"
                                             class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#contacto_form"
@@ -352,7 +352,7 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">UNICO 20ºN 87ºW</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$10,112*<span class="fs-20">/Persona</span></p>
+                                        <p class="c-red fs-20">$10,427*<span class="fs-20">/Persona</span></p>
                                         <a href="#contacto_form"
                                             class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#contacto_form"
@@ -369,7 +369,7 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">GRAND VELAS RIVIERA NAYARIT</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$20,872*<span class="fs-20">/Persona</span></p>
+                                        <p class="c-red fs-20">$16,655*<span class="fs-20">/Persona</span></p>
                                         <a href="#contacto_form"
                                             class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#contacto_form"
@@ -386,7 +386,7 @@
                                     <div class="col-md-12 col-sm-12 p-15 text-center">
                                         <h4 class="text-uppercase f-medium f-res-20">Dreams Huatulco Resort & Spa</h4>
                                         <small class="c-red f-15">Desde</small>
-                                        <p class="c-red fs-20">$5,572*<span class="fs-20">/Persona</span></p>
+                                        <p class="c-red fs-20">$5,624*<span class="fs-20">/Persona</span></p>
                                         <a href="#contacto_form"
                                             class="btn col-md-12 col-xs-12 btn-yellow white-text mb-10 radius-0 f-bold mb-0 txt-cap p-15 form-desktop">Llámame</a>
                                         <a href="#contacto_form"
